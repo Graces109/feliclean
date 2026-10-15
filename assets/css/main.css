@@ -1302,6 +1302,59 @@ section,
   margin-bottom: 24px;
 }
 
+.services .service-item .category-list {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+}
+
+.services .service-item .category-list > li {
+  padding-left: 18px;
+  position: relative;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: var(--default-color);
+}
+
+.services .service-item .category-list > li::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 1px;
+  top: 9px;
+}
+
+.services .service-item .category-sub {
+  list-style: none;
+  margin: 6px 0 4px;
+  padding: 0;
+}
+
+.services .service-item .category-sub > li {
+  padding-left: 18px;
+  position: relative;
+  margin-bottom: 6px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.services .service-item .category-sub > li::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  background: color-mix(in srgb, var(--accent-color), transparent 30%);
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+  top: 10px;
+}
+
 @media (max-width: 768px) {
   .services .service-item {
     padding: 40px 24px;
@@ -4210,4 +4263,129 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/*--------------------------------------------------------------
+# Product inner pages (Level-1 category pages)
+--------------------------------------------------------------*/
+.page-header {
+  padding: 132px 0 64px;
+  background: linear-gradient(135deg, #16a34a 0%, #0f6b2c 100%);
+  color: #ffffff;
+  text-align: center;
+}
+.page-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+.page-header .page-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 760px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.page-header .page-breadcrumb {
+  margin-top: 18px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.page-header .page-breadcrumb a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.page-header .page-breadcrumb a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .page-header { padding: 110px 0 48px; }
+  .page-header h1 { font-size: 30px; }
+}
+
+/* Level-2 category section inside a product page */
+.product-categories { padding: 64px 0; }
+.category-section { margin-bottom: 56px; }
+.category-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.category-heading .category-index {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #16a34a;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.category-heading h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: #111;
+}
+.category-heading .category-line {
+  flex: 1;
+  height: 1px;
+  background: #e5e7eb;
+}
+.category-heading .category-count {
+  font-size: 13px;
+  color: #6b7280;
+  white-space: nowrap;
+}
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+.category-grid .cat-card {
+  background: #ffffff;
+  border: 1px solid #e7e9ee;
+  border-radius: 12px;
+  padding: 18px 20px;
+  transition: box-shadow .25s ease, border-color .25s ease;
+}
+.category-grid .cat-card:hover {
+  border-color: #16a34a;
+  box-shadow: 0 8px 20px rgba(22, 163, 74, 0.12);
+}
+.category-grid .cat-card .cat-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.category-grid .cat-card .cat-card-title i {
+  color: #16a34a;
+}
+.category-grid .cat-card ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+.category-grid .cat-card ul li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+}
+.category-grid .cat-card .cat-empty {
+  font-size: 13px;
+  color: #9ca3af;
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .product-categories { padding: 44px 0; }
+  .category-heading h3 { font-size: 20px; }
 }
