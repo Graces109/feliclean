@@ -4426,3 +4426,17 @@ section,
 .hero-swiper .swiper-button-next {
   color: #ffffff;
 }
+@media (max-width: 768px) {
+  .hero-swiper {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+  }
+  .hero-swiper .swiper-slide {
+    height: auto;
+  }
+  .hero-swiper .swiper-slide img {
+    height: auto;
+    width: 100%;
+  }
+}
