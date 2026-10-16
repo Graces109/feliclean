@@ -48,7 +48,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li class="dropdown"><a href="#products"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -70,44 +70,6 @@
   </header>
 
   <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-
-      <div class="swiper hero-swiper">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <img src="assets/img/hero/hero-1.png" alt="Wet &amp; Dry Vacuum Cleaner">
-          </div>
-
-          <div class="swiper-slide">
-            <img src="assets/img/hero/hero-2.png" alt="Ride-On Commercial Scrubber">
-          </div>
-
-          <div class="swiper-slide">
-            <img src="assets/img/hero/hero-3.png" alt="Professional Floor Care Machine">
-          </div>
-
-          <div class="swiper-slide">
-            <img src="assets/img/hero/hero-4.png" alt="20L Mop Wringer Trolley">
-          </div>
-
-          <div class="swiper-slide">
-            <img src="assets/img/hero/hero-5.png" alt="Hotel Cleaning Service Cart">
-          </div>
-
-          <div class="swiper-slide">
-            <img src="assets/img/hero/hero-6.png" alt="Multipurpose Cleaning Cart">
-          </div>
-
-        </div>
-        <div class="swiper-pagination hero-pagination"></div>
-        <div class="swiper-button-prev hero-prev"></div>
-        <div class="swiper-button-next hero-next"></div>
-      </div>
-
-    </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -480,22 +442,6 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
-  <!-- Hero Slider Init -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      if (window.Swiper) {
-        new Swiper(".hero-swiper", {
-          loop: true,
-          speed: 700,
-          effect: "fade",
-          autoplay: { delay: 4500, disableOnInteraction: false },
-          pagination: { el: ".hero-pagination", clickable: true },
-          navigation: { nextEl: ".hero-next", prevEl: ".hero-prev" }
-        });
-      }
-    });
-  </script>
 
 </body>
 
