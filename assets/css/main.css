@@ -4389,3 +4389,45 @@ section,
   .product-categories { padding: 44px 0; }
   .category-heading h3 { font-size: 20px; }
 }
+/* ------------------------------------------------------------
+# Hero Slider
+---------------------------------------------------------------*/
+.hero.init-swiper {
+  width: 100%;
+  padding: 0;
+  background: #198754;
+}
+.hero-swiper {
+  width: 100%;
+  height: 92vh;
+  min-height: 520px;
+}
+.hero-swiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.hero-swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.hero-swiper .swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 0.6;
+}
+.hero-swiper .swiper-pagination-bullet-active {
+  background: #ffffff;
+  opacity: 1;
+}
+.hero-swiper .swiper-button-prev,
+.hero-swiper .swiper-button-next {
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .hero-swiper {
+    height: 60vh;
+    min-height: 380px;
+  }
+}

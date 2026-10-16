@@ -72,55 +72,39 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
+    <section id="hero" class="hero">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
 
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="hero-content">
-              <h1 data-aos="fade-up" data-aos-delay="200">Professional Cleaning Equipment &amp; Supplies for Hotels and Facilities</h1>
-              <p data-aos="fade-up" data-aos-delay="300">Guangzhou Feliclean Co., Ltd is your reliable partner for cleaning equipment, plastic products, service cart, mop, cleaning tools and hotel supplies. From floor scrubbers and carpet extractors to mop wringers and cleaning trolleys — quality products, competitive prices, worldwide export.</p>
-              <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
-                <a href="#products" class="btn-primary">Explore Products</a>
-                <a href="#contact" class="btn-secondary">
-                  <i class="bi bi-envelope-open"></i>
-                  Contact Us
-                </a>
-              </div>
-              <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
-                <div class="stat-item">
-                  <div class="stat-number">6</div>
-                  <div class="stat-label">Product Lines</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">100+</div>
-                  <div class="stat-label">Cleaning Items</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">OEM</div>
-                  <div class="stat-label">&amp; Wholesale</div>
-                </div>
-              </div>
-            </div>
+          <div class="swiper-slide">
+            <img src="assets/img/hero/hero-1.png" alt="Wet &amp; Dry Vacuum Cleaner">
           </div>
 
-          <div class="col-lg-6">
-            <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
-              <img src="assets/img/about/about-square-10.webp" alt="Hotel cleaning equipment" class="img-fluid">
-              <div class="floating-card" data-aos="zoom-in" data-aos-delay="600">
-                <div class="card-icon">
-                  <i class="bi bi-stars"></i>
-                </div>
-                <div class="card-content">
-                  <h5>Hotel-grade Quality</h5>
-                  <div class="growth-percentage">Reliable Supply</div>
-                </div>
-              </div>
-            </div>
+          <div class="swiper-slide">
+            <img src="assets/img/hero/hero-2.png" alt="Ride-On Commercial Scrubber">
           </div>
+
+          <div class="swiper-slide">
+            <img src="assets/img/hero/hero-3.png" alt="Professional Floor Care Machine">
+          </div>
+
+          <div class="swiper-slide">
+            <img src="assets/img/hero/hero-4.png" alt="20L Mop Wringer Trolley">
+          </div>
+
+          <div class="swiper-slide">
+            <img src="assets/img/hero/hero-5.png" alt="Hotel Cleaning Service Cart">
+          </div>
+
+          <div class="swiper-slide">
+            <img src="assets/img/hero/hero-6.png" alt="Multipurpose Cleaning Cart">
+          </div>
+
         </div>
-
+        <div class="swiper-pagination hero-pagination"></div>
+        <div class="swiper-button-prev hero-prev"></div>
+        <div class="swiper-button-next hero-next"></div>
       </div>
 
     </section><!-- /Hero Section -->
@@ -496,6 +480,22 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Hero Slider Init -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.Swiper) {
+        new Swiper(".hero-swiper", {
+          loop: true,
+          speed: 700,
+          effect: "fade",
+          autoplay: { delay: 4500, disableOnInteraction: false },
+          pagination: { el: ".hero-pagination", clickable: true },
+          navigation: { nextEl: ".hero-next", prevEl: ".hero-prev" }
+        });
+      }
+    });
+  </script>
 
 </body>
 
