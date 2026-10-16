@@ -71,6 +71,44 @@
 
   <main class="main">
 
+    <!-- Home Hero Slider (PC 1920x800 / Mobile 750x900) -->
+    <section id="home" class="home-slider init-swiper swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="slide-desktop" src="assets/img/hero/home-1.png" alt="One-stop cleaning equipment solution">
+          <img class="slide-mobile" src="assets/img/hero/home-1-m.png" alt="One-stop cleaning equipment solution">
+        </div>
+        <div class="swiper-slide">
+          <img class="slide-desktop" src="assets/img/hero/home-2.png" alt="Professional floor care machine">
+          <img class="slide-mobile" src="assets/img/hero/home-2-m.png" alt="Professional floor care machine">
+        </div>
+        <div class="swiper-slide">
+          <img class="slide-desktop" src="assets/img/hero/home-3.png" alt="Wet and dry vacuum cleaner">
+          <img class="slide-mobile" src="assets/img/hero/home-3-m.png" alt="Wet and dry vacuum cleaner">
+        </div>
+        <div class="swiper-slide">
+          <img class="slide-desktop" src="assets/img/hero/home-4.png" alt="Everything you need one cleaning cart">
+          <img class="slide-mobile" src="assets/img/hero/home-4-m.png" alt="Everything you need one cleaning cart">
+        </div>
+        <div class="swiper-slide">
+          <img class="slide-desktop" src="assets/img/hero/home-5.png" alt="Smart mop wringer system">
+          <img class="slide-mobile" src="assets/img/hero/home-5-m.png" alt="Smart mop wringer system">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <script class="swiper-config" type="application/json">
+      {
+        "loop": true,
+        "speed": 800,
+        "autoplay": { "delay": 5000, "disableOnInteraction": false },
+        "pagination": { "el": ".home-slider .swiper-pagination", "clickable": true },
+        "navigation": { "nextEl": ".home-slider .swiper-button-next", "prevEl": ".home-slider .swiper-button-prev" }
+      }
+      </script>
+    </section><!-- /Home Hero Slider -->
+
     <!-- About Section -->
     <section id="about" class="about section">
 
