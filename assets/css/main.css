@@ -4444,6 +4444,7 @@ section,
 /*--------------------------------------------------------------
 # Home Hero Slider (5 banners, PC 1920x800 / Mobile 750x900)
 --------------------------------------------------------------*/
+.header { --background-color: #ffffff; border-bottom: 1px solid rgba(0, 0, 0, 0.07); }
 .home-slider { width: 100%; margin-top: 66px; aspect-ratio: 1920 / 800; overflow: hidden; }
 .home-slider .swiper-slide { position: relative; overflow: hidden; }
 .home-slider .swiper-slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
