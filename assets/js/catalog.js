@@ -14,12 +14,22 @@
     var currentFilter = 'all';
     var currentPage = 1;
 
+    // Initial filter from location hash (e.g. page.html#scrubber-dryer)
+    var initHash = (location.hash || '').replace('#', '');
+    if (initHash && navLinks.some(function (l) { return l.getAttribute('data-filter') === initHash; })) {
+      currentFilter = initHash;
+    }
+
     function filteredCards() {
       if (currentFilter === 'all') return cards;
       return cards.filter(function (c) { return c.getAttribute('data-cat') === currentFilter; });
     }
 
     function render() {
+      // Sync active highlight
+      navLinks.forEach(function (l) {
+        l.classList.toggle('active', l.getAttribute('data-filter') === currentFilter);
+      });
       var list = filteredCards();
       var totalPages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
       if (currentPage > totalPages) currentPage = totalPages;
