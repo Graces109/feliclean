@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Hotel Supplies - Feliclean</title>
-  <meta name="description" content="Hotel supplies by Guangzhou Feliclean Co., Ltd — tissue boxes, dispensers and everyday guest room essentials.">
+  <meta name="description" content="Hotel supplies by Guangzhou Feliclean Co., Ltd — tissue boxes and dispensers for guest rooms and public areas.">
 
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/apple-touch-icon.png" rel="icon">
 
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -53,11 +53,10 @@
   </header>
 
   <main class="main">
-
     <section class="page-header">
       <div class="container" data-aos="fade-up">
         <h1>Hotel Supplies</h1>
-        <p class="page-subtitle">Everyday supplies that keep guest rooms and public areas clean, comfortable and well presented.</p>
+        <p class="page-subtitle">Guest-room amenities and dispensers for hotels and facilities.</p>
         <div class="page-breadcrumb">
           <a href="index.html">Home</a> / <a href="index.html#products">Products</a> / Hotel Supplies
         </div>
@@ -66,44 +65,17 @@
 
     <section class="product-categories">
       <div class="container">
-
-        <div class="category-section" data-aos="fade-up">
-          <div class="category-heading">
-            <span class="category-index">1</span>
-            <h3>Tissue Box</h3>
-            <span class="category-line"></span>
-            <span class="category-count">Models available on request</span>
-          </div>
-          <div class="category-grid">
-            <div class="cat-card">
-              <div class="cat-card-title"><i class="bi bi-box"></i> Tissue Box</div>
-              <p class="cat-empty">Detailed models available on request — contact us for the full list.</p>
-            </div>
+        <div class="cat-layout">
+          <aside class="cat-sidebar"><h4 class="cat-sidebar-title">Categories</h4><ul class="cat-nav"><li><button class="cat-nav-link active" data-filter="all">All Products</button></li><li><button class="cat-nav-link" data-filter="tissue-box">Tissue Box</button></li><li><button class="cat-nav-link" data-filter="dispenser">Dispenser</button></li></ul></aside>
+          <div class="cat-content">
+            <div class="prod-grid" id="prodGrid"></div><div class="cat-empty-note" id="prodEmpty" style="display:none">Detailed models available on request — contact us for the full list.</div><nav class="prod-pagination" id="prodPagination"></nav>
           </div>
         </div>
-
-        <div class="category-section" data-aos="fade-up">
-          <div class="category-heading">
-            <span class="category-index">2</span>
-            <h3>Dispenser</h3>
-            <span class="category-line"></span>
-            <span class="category-count">Models available on request</span>
-          </div>
-          <div class="category-grid">
-            <div class="cat-card">
-              <div class="cat-card-title"><i class="bi bi-droplet-half"></i> Dispenser</div>
-              <p class="cat-empty">Detailed models available on request — contact us for the full list.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center mt-4" data-aos="fade-up">
+        <div class="text-center mt-5" data-aos="fade-up">
           <a href="index.html#contact" class="btn btn-success btn-lg">Request a Quote for Hotel Supplies</a>
         </div>
-
       </div>
     </section>
-
   </main>
 
   <footer id="footer" class="footer dark-background">
@@ -154,6 +126,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/catalog.js"></script>
 
 </body>
 
