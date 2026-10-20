@@ -91,15 +91,16 @@
 
             <!-- Module 2: Main Image + Detail Images -->
             <div class="sd-gallery">
-              <div class="sd-main-img">
-                <img src="assets/img/products/sd-101/main.jpg" alt="FeliClean SD-101 ride-on scrubber dryer product main image">
-              </div>
+              <a class="sd-main-img glightbox" href="assets/img/products/sd-101/main.jpg" data-gallery="sd101" data-title="SD-101 Ride-On Scrubber Dryer" id="sdMainLink">
+                <img id="sdMain" src="assets/img/products/sd-101/main.jpg" alt="FeliClean SD-101 ride-on scrubber dryer product main image">
+              </a>
               <div class="sd-thumbs">
-                <div class="sd-thumb"><img src="assets/img/products/sd-101/scene.jpg" alt="SD-101 scrubber dryer working in a warehouse"></div>
-                <div class="sd-thumb"><img src="assets/img/products/sd-101/runtime.jpg" alt="SD-101 dual water tanks and battery runtime"></div>
-                <div class="sd-thumb"><img src="assets/img/products/sd-101/brush.jpg" alt="SD-101 dual disc brush system and squeegee"></div>
-                <div class="sd-thumb"><img src="assets/img/products/sd-101/spec.jpg" alt="SD-101 core technical specifications"></div>
-                <div class="sd-thumb"><img src="assets/img/products/sd-101/detail.jpg" alt="SD-101 heavy-duty scrubbing disc, squeegee and control panel detail"></div>
+                <a class="sd-thumb active" data-full="assets/img/products/sd-101/main.jpg" href="assets/img/products/sd-101/main.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/main.jpg" alt="SD-101 product main view"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/scene.jpg" href="assets/img/products/sd-101/scene.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/scene.jpg" alt="SD-101 scrubber dryer working in a warehouse"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/runtime.jpg" href="assets/img/products/sd-101/runtime.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/runtime.jpg" alt="SD-101 dual water tanks and battery runtime"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/brush.jpg" href="assets/img/products/sd-101/brush.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/brush.jpg" alt="SD-101 dual disc brush system and squeegee"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/spec.jpg" href="assets/img/products/sd-101/spec.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/spec.jpg" alt="SD-101 core technical specifications"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/detail.jpg" href="assets/img/products/sd-101/detail.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/detail.jpg" alt="SD-101 heavy-duty scrubbing disc, squeegee and control panel detail"></a>
               </div>
             </div>
 
@@ -298,6 +299,24 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mainImg = document.getElementById('sdMain');
+      var mainLink = document.getElementById('sdMainLink');
+      var thumbs = document.querySelectorAll('.sd-thumb');
+      thumbs.forEach(function (t) {
+        t.addEventListener('click', function (e) {
+          e.preventDefault();
+          var src = t.getAttribute('data-full');
+          mainImg.src = src;
+          mainLink.href = src;
+          thumbs.forEach(function (x) { x.classList.remove('active'); });
+          t.classList.add('active');
+        });
+      });
+    });
+  </script>
 
 </body>
 
