@@ -83,5 +83,22 @@
     });
 
     render();
+
+    // Accordion: expand one first-level group at a time; click again to collapse
+    document.querySelectorAll('.cat-toggle').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var group = btn.closest('.cat-group');
+        var willOpen = !group.classList.contains('open');
+        document.querySelectorAll('.cat-group').forEach(function (g) {
+          g.classList.remove('open');
+          var t = g.querySelector('.cat-toggle');
+          if (t) t.setAttribute('aria-expanded', 'false');
+        });
+        if (willOpen) {
+          group.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
   });
 })();
