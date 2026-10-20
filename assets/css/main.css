@@ -4823,6 +4823,11 @@ section,
 .pdp-spec-wrap, .pdp-desc { text-align: left; }
 .pdp-spec-wrap .sd-section-title, .pdp-desc { margin-left: 0; }
 
+/* Left column: gallery on top, spec table + description stacked under the image, left aligned */
+.pdp-left { min-width: 0; }
+.pdp-left .pdp-spec-wrap { margin: 26px 0 6px; }
+.pdp-left .pdp-desc { margin-top: 16px; }
+
 /* CTA row: green Request a Quote + WhatsApp, left aligned */
 .pdp-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 28px; }
 .pdp-actions .btn-success { border-radius: 10px; }
