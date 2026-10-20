@@ -4407,6 +4407,30 @@ section,
   .product-categories { padding: 44px 0; }
   .category-heading h3 { font-size: 20px; }
 }
+
+/* ---- SD-101 product detail block ---- */
+.sd-product { margin-top: 8px; }
+.sd-product .sd-title { font-size: 26px; font-weight: 700; color: #111; margin: 0 0 6px; line-height: 1.3; }
+.sd-product .sd-title-sub { color: #6b7280; font-size: 15px; margin-bottom: 24px; }
+.sd-gallery { display: grid; grid-template-columns: 1.4fr 1fr; gap: 16px; margin-bottom: 32px; }
+.sd-main-img { border-radius: 14px; overflow: hidden; border: 1px solid #e7e9ee; background: #fff; }
+.sd-main-img img { width: 100%; display: block; }
+.sd-thumbs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.sd-thumbs .sd-thumb { border-radius: 10px; overflow: hidden; border: 1px solid #e7e9ee; background: #fff; }
+.sd-thumbs img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.sd-section-title { font-size: 19px; font-weight: 700; margin: 30px 0 14px; padding-left: 10px; border-left: 4px solid #16a34a; color: #111; }
+.sd-features { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+.sd-feature { background: #fff; border: 1px solid #e7e9ee; border-radius: 12px; padding: 16px 18px; font-size: 14.5px; color: #374151; line-height: 1.6; }
+.sd-feature i { color: #16a34a; margin-right: 8px; }
+.sd-spec-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #e7e9ee; }
+.sd-spec-table th, .sd-spec-table td { padding: 11px 16px; font-size: 14.5px; border-bottom: 1px solid #eef0f3; text-align: left; }
+.sd-spec-table th { background: #f3f7f4; font-weight: 600; color: #111; width: 42%; }
+.sd-spec-table tr:last-child td { border-bottom: none; }
+.sd-desc p { font-size: 15px; color: #374151; line-height: 1.75; margin-bottom: 12px; }
+@media (max-width: 768px) {
+  .sd-gallery { grid-template-columns: 1fr; }
+  .sd-product .sd-title { font-size: 21px; }
+}
 /* ------------------------------------------------------------
 # Hero Slider
 ---------------------------------------------------------------*/
