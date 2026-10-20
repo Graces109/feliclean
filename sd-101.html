@@ -85,7 +85,7 @@
               <div class="pdp-meta-row"><span class="k">Model</span><span class="v">SD-101</span></div>
               <div class="pdp-meta-row"><span class="k">Machine Type</span><span class="v">Ride-On Scrubber Dryer</span></div>
               <div class="pdp-meta-row"><span class="k">Application</span><span class="v">Warehouse, Hotel, Supermarket, Hospital, School</span></div>
-              <div class="pdp-meta-row"><span class="k">Quantity</span><span class="v">MOQ available on request</span></div>
+              <div class="pdp-meta-row"><span class="k">Quantity</span><span class="v"><input type="number" min="1" step="1" value="1" id="pdpQty" class="pdp-qty" aria-label="Quantity"></span></div>
             </div>
 
             <div class="sd-features">
@@ -128,8 +128,8 @@
             </div>
 
             <div class="pdp-actions">
-              <a href="index.html#contact" class="btn btn-success btn-lg">Request a Quote for SD-101</a>
-              <a href="https://wa.me/8613427520701" class="pdp-wa" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+              <a href="mailto:info@feliclean.com" id="quoteBtn" class="btn btn-success btn-lg">Request a Quote for SD-101</a>
+              <a href="https://wa.me/8613427520701" id="waBtn" class="pdp-wa" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> WhatsApp</a>
             </div>
           </div>
         </div>
@@ -244,6 +244,31 @@
         if (e.key === 'ArrowLeft') step(-1);
         if (e.key === 'ArrowRight') step(1);
       });
+    });
+  </script>
+
+  <script>
+    // Inquiry: sync Quantity into mailto and WhatsApp
+    document.addEventListener('DOMContentLoaded', function () {
+      var qty = document.getElementById('pdpQty');
+      var quote = document.getElementById('quoteBtn');
+      var wa = document.getElementById('waBtn');
+      var MODEL = 'SD-101';
+      var PRODUCT = 'Ride-On Scrubber Dryer Machine SD-101';
+      var WA_NUMBER = '8613427520701';
+      var MAIL_TO = 'info@feliclean.com';
+      function refresh() {
+        var q = parseInt(qty.value, 10);
+        if (isNaN(q) || q < 1) q = 1;
+        var body = 'Product: ' + PRODUCT + '\r\nModel: ' + MODEL + '\r\nQuantity: ' + q + '\r\n\r\nPlease send me a quotation (unit price, MOQ, lead time and payment terms).';
+        quote.href = 'mailto:' + MAIL_TO + '?subject=' + encodeURIComponent('Quote Request - ' + MODEL) + '&body=' + encodeURIComponent(body);
+        var txt = encodeURIComponent('Hello, I would like a quotation for ' + PRODUCT + ', Quantity: ' + q + '.');
+        wa.href = 'https://wa.me/' + WA_NUMBER + '?text=' + txt;
+      }
+      if (qty && quote && wa) {
+        qty.addEventListener('input', refresh);
+        refresh();
+      }
     });
   </script>
 

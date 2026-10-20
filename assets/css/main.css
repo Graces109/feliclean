@@ -4834,3 +4834,15 @@ section,
 }
 .pdp-wa:hover { opacity: .9; color: #fff; }
 .pdp-wa i { font-size: 20px; }
+
+/* Quantity input for inquiry */
+.pdp-qty {
+  width: 110px;
+  padding: 8px 12px;
+  font-size: 15px;
+  color: #111;
+  border: 1px solid #d7dbe0;
+  border-radius: 9px;
+  background: #fff;
+}
+.pdp-qty:focus { outline: none; border-color: #16a34a; }
