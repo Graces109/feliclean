@@ -4287,7 +4287,7 @@ section,
 # Product inner pages (Level-1 category pages)
 --------------------------------------------------------------*/
 .page-header {
-  padding: 132px 0 64px;
+  padding: 180px 0 64px;
   background: linear-gradient(135deg, #16a34a 0%, #0f6b2c 100%);
   color: #ffffff;
   text-align: center;
@@ -4318,7 +4318,7 @@ section,
   text-decoration: underline;
 }
 @media (max-width: 768px) {
-  .page-header { padding: 110px 0 48px; }
+  .page-header { padding: 150px 0 48px; }
   .page-header h1 { font-size: 30px; }
 }
 
