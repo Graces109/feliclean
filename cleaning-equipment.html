@@ -91,16 +91,16 @@
 
             <!-- Module 2: Main Image + Detail Images -->
             <div class="sd-gallery">
-              <a class="sd-main-img glightbox" href="assets/img/products/sd-101/main.jpg" data-gallery="sd101" data-title="SD-101 Ride-On Scrubber Dryer" id="sdMainLink">
+              <div class="sd-main-img" id="sdMainLink" style="cursor:zoom-in;">
                 <img id="sdMain" src="assets/img/products/sd-101/main.jpg" alt="FeliClean SD-101 ride-on scrubber dryer product main image">
-              </a>
+              </div>
               <div class="sd-thumbs">
-                <a class="sd-thumb active" data-full="assets/img/products/sd-101/main.jpg" href="assets/img/products/sd-101/main.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/main.jpg" alt="SD-101 product main view"></a>
-                <a class="sd-thumb" data-full="assets/img/products/sd-101/scene.jpg" href="assets/img/products/sd-101/scene.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/scene.jpg" alt="SD-101 scrubber dryer working in a warehouse"></a>
-                <a class="sd-thumb" data-full="assets/img/products/sd-101/runtime.jpg" href="assets/img/products/sd-101/runtime.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/runtime.jpg" alt="SD-101 dual water tanks and battery runtime"></a>
-                <a class="sd-thumb" data-full="assets/img/products/sd-101/brush.jpg" href="assets/img/products/sd-101/brush.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/brush.jpg" alt="SD-101 dual disc brush system and squeegee"></a>
-                <a class="sd-thumb" data-full="assets/img/products/sd-101/spec.jpg" href="assets/img/products/sd-101/spec.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/spec.jpg" alt="SD-101 core technical specifications"></a>
-                <a class="sd-thumb" data-full="assets/img/products/sd-101/detail.jpg" href="assets/img/products/sd-101/detail.jpg" data-gallery="sd101"><img src="assets/img/products/sd-101/detail.jpg" alt="SD-101 heavy-duty scrubbing disc, squeegee and control panel detail"></a>
+                <a class="sd-thumb active" data-full="assets/img/products/sd-101/main.jpg" data-title="SD-101 product main view"><img src="assets/img/products/sd-101/main.jpg" alt="SD-101 product main view"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/scene.jpg" data-title="SD-101 working in a warehouse"><img src="assets/img/products/sd-101/scene.jpg" alt="SD-101 scrubber dryer working in a warehouse"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/runtime.jpg" data-title="Dual water tanks and battery runtime"><img src="assets/img/products/sd-101/runtime.jpg" alt="SD-101 dual water tanks and battery runtime"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/brush.jpg" data-title="Dual disc brush system and squeegee"><img src="assets/img/products/sd-101/brush.jpg" alt="SD-101 dual disc brush system and squeegee"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/spec.jpg" data-title="Core technical specifications"><img src="assets/img/products/sd-101/spec.jpg" alt="SD-101 core technical specifications"></a>
+                <a class="sd-thumb" data-full="assets/img/products/sd-101/detail.jpg" data-title="Heavy-duty detail"><img src="assets/img/products/sd-101/detail.jpg" alt="SD-101 heavy-duty scrubbing disc, squeegee and control panel detail"></a>
               </div>
             </div>
 
@@ -300,20 +300,61 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 
+  <!-- SD-101 Lightbox -->
+  <div class="sd-lightbox" id="sdLightbox">
+    <button class="sd-lb-btn sd-lb-close" id="sdLbClose" aria-label="Close">&times;</button>
+    <button class="sd-lb-btn sd-lb-prev" id="sdLbPrev" aria-label="Previous">&#10094;</button>
+    <img class="sd-lb-img" id="sdLbImg" src="" alt="SD-101 enlarged view">
+    <button class="sd-lb-btn sd-lb-next" id="sdLbNext" aria-label="Next">&#10095;</button>
+    <div class="sd-lb-counter" id="sdLbCounter"></div>
+  </div>
+
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var mainImg = document.getElementById('sdMain');
       var mainLink = document.getElementById('sdMainLink');
-      var thumbs = document.querySelectorAll('.sd-thumb');
-      thumbs.forEach(function (t) {
+      var thumbs = Array.prototype.slice.call(document.querySelectorAll('.sd-thumb'));
+      var lb = document.getElementById('sdLightbox');
+      var lbImg = document.getElementById('sdLbImg');
+      var lbCounter = document.getElementById('sdLbCounter');
+      var current = 0;
+
+      function showMain(i) {
+        current = i;
+        mainImg.src = thumbs[i].getAttribute('data-full');
+        thumbs.forEach(function (x, k) { x.classList.toggle('active', k === i); });
+      }
+
+      thumbs.forEach(function (t, i) {
         t.addEventListener('click', function (e) {
           e.preventDefault();
-          var src = t.getAttribute('data-full');
-          mainImg.src = src;
-          mainLink.href = src;
-          thumbs.forEach(function (x) { x.classList.remove('active'); });
-          t.classList.add('active');
+          showMain(i);
         });
+      });
+
+      function openLb(i) {
+        current = (i + thumbs.length) % thumbs.length;
+        lbImg.src = thumbs[current].getAttribute('data-full');
+        lbCounter.textContent = (current + 1) + ' / ' + thumbs.length;
+        lb.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      }
+      function closeLb() {
+        lb.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+      function step(dir) { openLb(current + dir); }
+
+      mainLink.addEventListener('click', function () { openLb(current); });
+      document.getElementById('sdLbClose').addEventListener('click', closeLb);
+      document.getElementById('sdLbPrev').addEventListener('click', function () { step(-1); });
+      document.getElementById('sdLbNext').addEventListener('click', function () { step(1); });
+      lb.addEventListener('click', function (e) { if (e.target === lb) closeLb(); });
+      document.addEventListener('keydown', function (e) {
+        if (!lb.classList.contains('open')) return;
+        if (e.key === 'Escape') closeLb();
+        if (e.key === 'ArrowLeft') step(-1);
+        if (e.key === 'ArrowRight') step(1);
       });
     });
   </script>
