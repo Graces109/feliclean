@@ -164,9 +164,9 @@ h6 {
 }
 
 .header .logo img.brand-logo {
-  height: 62px;
-  width: 62px;
-  max-height: 62px;
+  height: 124px;
+  width: 124px;
+  max-height: 124px;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 10px;
@@ -459,9 +459,9 @@ h6 {
 }
 
 .footer .footer-about img.footer-logo {
-  height: 120px;
-  width: 120px;
-  max-height: 120px;
+  height: 240px;
+  width: 240px;
+  max-height: 240px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 22px;
