@@ -4796,3 +4796,41 @@ section,
   .pdp-main { min-height: 280px; }
   .pdp-title { font-size: 23px; }
 }
+
+/* ===== Detail page refinements: clear fixed header, plain selling points, left-aligned spec/desc, CTA + WhatsApp ===== */
+.product-detail { padding-top: 120px; }
+
+.pdp-crumb { font-size: 14px; color: #6b7280; margin: 0 0 16px; }
+.pdp-crumb a { color: #16a34a; text-decoration: none; }
+.pdp-crumb a:hover { text-decoration: underline; }
+.pdp-back {
+  display: inline-flex; align-items: center; gap: 7px;
+  color: #16a34a; font-size: 14.5px; font-weight: 600;
+  text-decoration: none; margin-bottom: 18px;
+}
+.pdp-back:hover { text-decoration: underline; }
+
+/* Selling points: plain aligned paragraphs, no card box */
+.pdp-info .sd-features { display: block; margin: 16px 0 20px; }
+.pdp-info .sd-feature {
+  background: none; border: none; border-radius: 0; padding: 7px 0;
+  font-size: 15px; color: #374151; line-height: 1.65;
+  display: flex; gap: 9px; align-items: flex-start;
+}
+.pdp-info .sd-feature i { color: #16a34a; margin: 3px 4px 0 0; flex: 0 0 auto; }
+
+/* Spec table + description left aligned, no centered card feel */
+.pdp-spec-wrap, .pdp-desc { text-align: left; }
+.pdp-spec-wrap .sd-section-title, .pdp-desc { margin-left: 0; }
+
+/* CTA row: green Request a Quote + WhatsApp, left aligned */
+.pdp-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 28px; }
+.pdp-actions .btn-success { border-radius: 10px; }
+.pdp-wa {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #25d366; color: #fff; text-decoration: none;
+  padding: 11px 18px; border-radius: 10px; font-weight: 600; font-size: 15px;
+  transition: opacity .18s ease;
+}
+.pdp-wa:hover { opacity: .9; color: #fff; }
+.pdp-wa i { font-size: 20px; }
