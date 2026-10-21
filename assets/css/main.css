@@ -4828,6 +4828,25 @@ section,
 .pdp-left .pdp-spec-wrap { margin: 26px 0 6px; }
 .pdp-left .pdp-desc { margin-top: 16px; }
 
+/* Products overview category cards */
+.product-cat-overview { padding: 60px 0 80px; background: #fff; }
+.cat-ov-card {
+  display: flex; flex-direction: column; height: 100%;
+  background: #fff; border: 1px solid #eef2f0; border-radius: 14px;
+  padding: 30px 26px; text-decoration: none; color: #21302a;
+  box-shadow: 0 4px 18px rgba(0,0,0,.05); transition: all .25s ease;
+}
+.cat-ov-card:hover { transform: translateY(-6px); box-shadow: 0 14px 34px rgba(22,163,74,.16); border-color: #d7efe0; text-decoration: none; color: #16a34a; }
+.cat-ov-icon {
+  width: 58px; height: 58px; border-radius: 12px; display: flex; align-items: center; justify-content: center;
+  background: #e8f6ee; color: #16a34a; font-size: 28px; margin-bottom: 18px;
+}
+.cat-ov-card h3 { font-size: 20px; font-weight: 700; margin: 0 0 10px; color: #1f2d27; }
+.cat-ov-card p { font-size: 14.5px; line-height: 1.65; color: #5b6b64; flex: 1; margin: 0 0 18px; }
+.cat-ov-more { font-size: 14px; font-weight: 600; color: #16a34a; }
+.cat-ov-more i { transition: transform .2s ease; }
+.cat-ov-card:hover .cat-ov-more i { transform: translateX(5px); }
+
 /* CTA row: green Request a Quote + WhatsApp, left aligned */
 .pdp-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 28px; }
 .pdp-actions .btn-success { border-radius: 10px; }
