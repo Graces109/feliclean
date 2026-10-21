@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Get a Quote - Feliclean</title>
+  <meta name="description" content="Request a quotation from FeliClean. Send your product model, quantity and contact details and we will reply with unit price, MOQ, lead time and payment terms.">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="inner-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="FeliClean" class="brand-logo">
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li class="dropdown"><a href="products.html"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="cleaning-equipment.html">Cleaning Equipment</a></li>
+              <li><a href="plastic.html">Plastic</a></li>
+              <li><a href="service-cart.html">Service Cart</a></li>
+              <li><a href="cleaning-tools.html">Cleaning Tools</a></li>
+              <li><a href="mop.html">Mop</a></li>
+              <li><a href="hotel-supplies.html">Hotel Supplies</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="download.html">Download <i class="bi bi-download"></i></a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="page-header">
+      <div class="container" data-aos="fade-up">
+        <h1>Get a Quote</h1>
+        <p class="page-subtitle">Fill in the form below and we will reply with unit price, MOQ, lead time and payment terms within 24 hours.</p>
+        <div class="page-breadcrumb">
+          <a href="index.html">Home</a> / Get a Quote
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container" data-aos="fade-up">
+        <div class="quote-card">
+          <form id="quoteForm" novalidate>
+            <div class="row g-4">
+              <div class="col-lg-6">
+                <h5 class="quote-block-title">Product Information</h5>
+                <div class="mb-3">
+                  <label class="form-label" for="qModel">Model <span class="req">*</span></label>
+                  <input type="text" class="form-control" id="qModel" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="qProduct">Product Name <span class="req">*</span></label>
+                  <input type="text" class="form-control" id="qProduct" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="qQty">Quantity <span class="req">*</span></label>
+                  <input type="number" class="form-control" id="qQty" min="1" value="1" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <h5 class="quote-block-title">Your Contact</h5>
+                <div class="mb-3">
+                  <label class="form-label" for="qName">Your Name <span class="req">*</span></label>
+                  <input type="text" class="form-control" id="qName" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="qEmail">Your Email <span class="req">*</span></label>
+                  <input type="email" class="form-control" id="qEmail" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="qPhone">Your Phone / WhatsApp</label>
+                  <input type="tel" class="form-control" id="qPhone">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="mb-3">
+                  <label class="form-label" for="qMsg">Message / Remark</label>
+                  <textarea class="form-control" id="qMsg" rows="4" placeholder="Any extra requirements (packing, voltage, port of destination, etc.)"></textarea>
+                </div>
+              </div>
+              <div class="col-12 d-flex flex-wrap gap-3">
+                <button type="submit" class="btn btn-lg" style="background:#ffc107;border-color:#ffc107;color:#212529;"><i class="bi bi-send"></i> Send Inquiry</button>
+                <a href="https://wa.me/8613427520701" target="_blank" rel="noopener" class="btn btn-lg pdp-wa" id="waLink"><i class="bi bi-whatsapp"></i> WhatsApp Us</a>
+              </div>
+              <p class="quote-note">By submitting, your details will open in your email client addressed to info@feliclean.com. We reply within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="FeliClean" class="footer-logo">
+          </a>
+          <p>Guangzhou Feliclean Co., Ltd — professional supplier of cleaning equipment, plastic products, service cart, mop, cleaning tools, hotel supplies and cleaning agents. Quality products, competitive prices, worldwide export.</p>
+        </div>
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="cleaning-equipment.html">Cleaning Equipment</a></li>
+            <li><a href="plastic.html">Plastic</a></li>
+            <li><a href="service-cart.html">Service Cart</a></li>
+            <li><a href="cleaning-tools.html">Cleaning Tools</a></li>
+            <li><a href="mop.html">Mop</a></li>
+            <li><a href="hotel-supplies.html">Hotel Supplies</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p class="mt-1"><strong>Phone / WhatsApp:</strong> <span>+86 134 2752 0701</span></p>
+          <p><strong>Email:</strong> <span>info@feliclean.com</span></p>
+          <p>Guangzhou, Guangdong, China</p>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">FeliClean</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var MAIL_TO = 'info@feliclean.com';
+      var WA = '8613427520701';
+      var p = new URLSearchParams(window.location.search);
+      function set(id, val) { var el = document.getElementById(id); if (el && val) el.value = val; }
+      set('qModel', p.get('model'));
+      set('qProduct', p.get('product'));
+      set('qQty', p.get('qty') || '1');
+
+      function buildWaText() {
+        return 'Hello FeliClean, I would like a quotation:\n' +
+          'Model: ' + document.getElementById('qModel').value + '\n' +
+          'Product: ' + document.getElementById('qProduct').value + '\n' +
+          'Quantity: ' + document.getElementById('qQty').value + '\n' +
+          'Name: ' + document.getElementById('qName').value + '\n' +
+          'Email: ' + document.getElementById('qEmail').value + '\n' +
+          'Phone: ' + document.getElementById('qPhone').value + '\n' +
+          'Message: ' + document.getElementById('qMsg').value;
+      }
+      function refreshWa() {
+        document.getElementById('waLink').href = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(buildWaText());
+      }
+      document.getElementById('quoteForm').addEventListener('input', refreshWa);
+
+      document.getElementById('quoteForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var f = e.target;
+        if (!f.checkValidity()) { f.reportValidity(); return; }
+        var model = document.getElementById('qModel').value;
+        var body =
+          'Quote Request from FeliClean website\r\n' +
+          '--------------------------------\r\n' +
+          'Model: ' + document.getElementById('qModel').value + '\r\n' +
+          'Product: ' + document.getElementById('qProduct').value + '\r\n' +
+          'Quantity: ' + document.getElementById('qQty').value + '\r\n' +
+          'Name: ' + document.getElementById('qName').value + '\r\n' +
+          'Email: ' + document.getElementById('qEmail').value + '\r\n' +
+          'Phone: ' + document.getElementById('qPhone').value + '\r\n' +
+          'Message: ' + document.getElementById('qMsg').value + '\r\n';
+        window.location.href = 'mailto:' + MAIL_TO +
+          '?subject=' + encodeURIComponent('Quote Request - ' + model) +
+          '&body=' + encodeURIComponent(body);
+      });
+    });
+  </script>
+
+  <style>
+    .quote-section { padding: 60px 0 90px; }
+    .quote-card { background:#fff; border:1px solid #eaeaea; border-radius:10px; padding:38px; box-shadow:0 8px 30px rgba(0,0,0,.05); max-width:960px; margin:0 auto; }
+    .quote-block-title { font-weight:600; color:var(--accent-color); margin-bottom:18px; padding-bottom:8px; border-bottom:2px solid #f0f0f0; }
+    .quote-card .form-label { font-weight:500; font-size:.9rem; }
+    .quote-card .form-control { border-radius:6px; padding:10px 14px; }
+    .req { color:#e53; }
+    .quote-note { font-size:.85rem; color:#888; margin-top:14px; margin-bottom:0; }
+    .pdp-wa { background:#25d366; color:#fff !important; border-color:#25d366; }
+    .pdp-wa:hover { background:#1eb85b; color:#fff !important; }
+  </style>
+
+</body>
+
+</html>
