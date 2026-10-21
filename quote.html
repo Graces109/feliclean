@@ -109,7 +109,8 @@
                 <button type="submit" class="btn btn-lg" style="background:#ffc107;border-color:#ffc107;color:#212529;"><i class="bi bi-send"></i> Send Inquiry</button>
                 <a href="https://wa.me/8613427520701" target="_blank" rel="noopener" class="btn btn-lg pdp-wa" id="waLink"><i class="bi bi-whatsapp"></i> WhatsApp Us</a>
               </div>
-              <p class="quote-note">By submitting, your details will open in your email client addressed to info@feliclean.com. We reply within 24 hours.</p>
+              <p class="quote-note">By submitting, your inquiry is sent directly to info@feliclean.com. We reply within 24 hours.</p>
+              <div id="formMsg" class="quote-msg" style="display:none"></div>
             </div>
           </form>
         </div>
@@ -197,19 +198,37 @@
         var f = e.target;
         if (!f.checkValidity()) { f.reportValidity(); return; }
         var model = document.getElementById('qModel').value;
-        var body =
-          'Quote Request from FeliClean website\r\n' +
-          '--------------------------------\r\n' +
-          'Model: ' + document.getElementById('qModel').value + '\r\n' +
-          'Product: ' + document.getElementById('qProduct').value + '\r\n' +
-          'Quantity: ' + document.getElementById('qQty').value + '\r\n' +
-          'Name: ' + document.getElementById('qName').value + '\r\n' +
-          'Email: ' + document.getElementById('qEmail').value + '\r\n' +
-          'Phone: ' + document.getElementById('qPhone').value + '\r\n' +
-          'Message: ' + document.getElementById('qMsg').value + '\r\n';
-        window.location.href = 'mailto:' + MAIL_TO +
-          '?subject=' + encodeURIComponent('Quote Request - ' + model) +
-          '&body=' + encodeURIComponent(body);
+        var btn = f.querySelector('button[type=submit]');
+        var msg = document.getElementById('formMsg');
+        btn.disabled = true;
+        var data = {
+          _subject: 'Quote Request - ' + model,
+          _template: 'table',
+          _captcha: 'false',
+          Model: document.getElementById('qModel').value,
+          Product: document.getElementById('qProduct').value,
+          Quantity: document.getElementById('qQty').value,
+          Name: document.getElementById('qName').value,
+          Email: document.getElementById('qEmail').value,
+          Phone: document.getElementById('qPhone').value,
+          Message: document.getElementById('qMsg').value
+        };
+        fetch('https://formsubmit.co/ajax/info@feliclean.com', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(data)
+        }).then(function (res) {
+          if (res.ok) {
+            msg.style.display = 'block';
+            msg.className = 'quote-msg ok';
+            msg.innerHTML = '<i class="bi bi-check-circle"></i> Thank you! Your inquiry has been sent. We will reply within 24 hours.';
+            f.reset();
+          } else { throw new Error('bad'); }
+        }).catch(function () {
+          msg.style.display = 'block';
+          msg.className = 'quote-msg err';
+          msg.innerHTML = '<i class="bi bi-x-circle"></i> Sorry, sending failed. Please email us directly at info@feliclean.com or use WhatsApp.';
+        }).finally(function () { btn.disabled = false; });
       });
     });
   </script>
@@ -222,6 +241,9 @@
     .quote-card .form-control { border-radius:6px; padding:10px 14px; }
     .req { color:#e53; }
     .quote-note { font-size:.85rem; color:#888; margin-top:14px; margin-bottom:0; }
+    .quote-msg { font-size:.95rem; font-weight:500; padding:12px 16px; border-radius:6px; margin-top:14px; }
+    .quote-msg.ok { background:#e7f6ec; color:#1a7f37; border:1px solid #b7e4c7; }
+    .quote-msg.err { background:#fdecea; color:#c0392b; border:1px solid #f5c6cb; }
     .pdp-wa { background:#25d366; color:#fff !important; border-color:#25d366; }
     .pdp-wa:hover { background:#1eb85b; color:#fff !important; }
   </style>
