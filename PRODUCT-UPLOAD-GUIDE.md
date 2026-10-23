@@ -233,6 +233,7 @@ git push origin master:main
 | SD-102 | 660mm Auto/Manual Ride-On Scrubber Dryer | eq | scrubber-dryer | scrubber-dryer | `sd-102.html` |
 | CN-101 | Small Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-101.html` |
 | CN-102 | Large Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-102.html` |
+| CN-103 | The Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-103.html` |
 
 ---
 
