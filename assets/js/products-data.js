@@ -38,7 +38,7 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "cn-101.html",
-    img: "assets/img/products/cn-101/main.jpg",
+    img: "assets/img/products/cn-101/scene.jpg",
     alt: "CN-101 small shape A caution board",
     model: "CN-101",
     name: "Small Shape of A Caution Board",
@@ -48,7 +48,7 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "cn-102.html",
-    img: "assets/img/products/cn-102/main.jpg",
+    img: "assets/img/products/cn-102/scene.jpg",
     alt: "CN-102 large shape A caution board",
     model: "CN-102",
     name: "Large Shape of A Caution Board",
