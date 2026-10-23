@@ -55,5 +55,15 @@ window.FELI_PRODUCTS = [
     group: "pl",
     cat: "new-shape-caution-board",
     parent: "caution-board"
+  },
+  {
+    href: "cn-103.html",
+    img: "assets/img/products/cn-103/scene.jpg",
+    alt: "CN-103 The Shape of A caution board",
+    model: "CN-103",
+    name: "The Shape of A Caution Board",
+    group: "pl",
+    cat: "new-shape-caution-board",
+    parent: "caution-board"
   }
 ];
