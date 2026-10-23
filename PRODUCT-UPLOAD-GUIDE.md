@@ -234,6 +234,7 @@ git push origin master:main
 | CN-101 | Small Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-101.html` |
 | CN-102 | Large Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-102.html` |
 | CN-103 | The Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-103.html` |
+| CN-104 | Large Upright Caution Board | pl | caution-board | upright-caution-board | `cn-104.html` |
 
 ---
 
