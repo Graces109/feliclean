@@ -1,4 +1,7 @@
-/* Product catalog: sidebar category filter + 12-per-page pagination (static, no backend) */
+/* Product catalog: central data registry + sidebar category filter + 12-per-page pagination (static, no backend).
+ * Cards are rendered from window.FELI_PRODUCTS (products-data.js). A page with
+ * data-scope-group="eq" shows only that first-level group; products.html (no scope)
+ * shows every product. Add a record to products-data.js and it appears automatically. */
 (function () {
   var PAGE_SIZE = 12;
 
@@ -6,10 +9,49 @@
     var grid = document.getElementById('prodGrid');
     if (!grid) return;
 
-    var cards = Array.prototype.slice.call(grid.querySelectorAll('.prod-card'));
     var navLinks = Array.prototype.slice.call(document.querySelectorAll('.cat-nav-link'));
     var pagination = document.getElementById('prodPagination');
     var emptyNote = document.getElementById('prodEmpty');
+
+    var scope = grid.getAttribute('data-scope-group') || 'all';
+    var allProducts = window.FELI_PRODUCTS || [];
+    var scoped = scope === 'all'
+      ? allProducts.slice()
+      : allProducts.filter(function (p) { return p.group === scope; });
+
+    // Render cards from the central registry
+    scoped.forEach(function (p) {
+      var card = document.createElement('a');
+      card.className = 'prod-card';
+      card.href = p.href;
+      card.setAttribute('data-cat', p.cat);
+      card.setAttribute('data-parent', p.parent || p.cat);
+
+      var imgWrap = document.createElement('div');
+      imgWrap.className = 'prod-card-img';
+      var img = document.createElement('img');
+      img.src = p.img;
+      img.alt = p.alt || p.name;
+      img.setAttribute('loading', 'lazy');
+      imgWrap.appendChild(img);
+
+      var body = document.createElement('div');
+      body.className = 'prod-card-body';
+      var model = document.createElement('span');
+      model.className = 'prod-model';
+      model.textContent = p.model;
+      var name = document.createElement('div');
+      name.className = 'prod-name';
+      name.textContent = p.name;
+      body.appendChild(model);
+      body.appendChild(name);
+
+      card.appendChild(imgWrap);
+      card.appendChild(body);
+      grid.appendChild(card);
+    });
+
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.prod-card'));
 
     var currentFilter = 'all';
     var currentPage = 1;
@@ -20,9 +62,14 @@
       currentFilter = initHash;
     }
 
+    function matches(c) {
+      if (currentFilter === 'all') return true;
+      return c.getAttribute('data-cat') === currentFilter ||
+             c.getAttribute('data-parent') === currentFilter;
+    }
+
     function filteredCards() {
-      if (currentFilter === 'all') return cards;
-      return cards.filter(function (c) { return c.getAttribute('data-cat') === currentFilter; });
+      return cards.filter(matches);
     }
 
     function render() {
