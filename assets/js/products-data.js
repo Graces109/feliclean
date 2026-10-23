@@ -65,5 +65,15 @@ window.FELI_PRODUCTS = [
     group: "pl",
     cat: "new-shape-caution-board",
     parent: "caution-board"
+  },
+  {
+    href: "cn-104.html",
+    img: "assets/img/products/cn-104/scene.jpg",
+    alt: "CN-104 large upright caution board",
+    model: "CN-104",
+    name: "Large Upright Caution Board",
+    group: "pl",
+    cat: "upright-caution-board",
+    parent: "caution-board"
   }
 ];
