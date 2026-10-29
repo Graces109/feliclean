@@ -95,6 +95,12 @@
       pagination.innerHTML = '';
       if (totalPages <= 1) return;
 
+      var info = document.createElement('div');
+      info.className = 'pager-info';
+      var shownEnd = Math.min(start + PAGE_SIZE, list.length);
+      info.textContent = 'Showing ' + (start + 1) + '–' + shownEnd + ' of ' + list.length + ' products';
+      pagination.appendChild(info);
+
       function btn(label, page, opts) {
         opts = opts || {};
         var b = document.createElement('button');
@@ -112,11 +118,11 @@
         return b;
       }
 
-      pagination.appendChild(btn('&laquo; Prev', currentPage - 1, { disabled: currentPage === 1 }));
+      pagination.appendChild(btn('<span class="pg-arrow">&laquo;</span> Prev', currentPage - 1, { disabled: currentPage === 1 }));
       for (var p = 1; p <= totalPages; p++) {
         pagination.appendChild(btn(String(p), p, { active: p === currentPage }));
       }
-      pagination.appendChild(btn('Next &raquo;', currentPage + 1, { disabled: currentPage === totalPages }));
+      pagination.appendChild(btn('Next <span class="pg-arrow">&raquo;</span>', currentPage + 1, { disabled: currentPage === totalPages }));
     }
 
     navLinks.forEach(function (link) {
