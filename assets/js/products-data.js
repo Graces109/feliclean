@@ -59,7 +59,7 @@ window.FELI_PRODUCTS = [
   {
     href: "cn-103.html",
     img: "assets/img/products/cn-103/cn103-01.jpg",
-    alt: "CN-103 The Shape of A caution board, REPAIR IN PROGRESS",
+    alt: "CN-103 The Shape of A caution board, NO PARKING",
     model: "CN-103",
     name: "The Shape of A Caution Board",
     group: "pl",
