@@ -48,8 +48,8 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "cn-102.html",
-    img: "assets/img/products/cn-102/scene.jpg",
-    alt: "CN-102 large shape A caution board",
+    img: "assets/img/products/cn-102/cn102-01.jpg",
+    alt: "CN-102 large shape A caution board, NO PARKING",
     model: "CN-102",
     name: "Large Shape of A Caution Board",
     group: "pl",
