@@ -38,8 +38,8 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "sm-101.html",
-    img: "assets/img/products/sm-101/sm-101-sofa-maintainer-foam-brush-and-hose.jpg",
-    alt: "SM-101 small sofa maintainer with foam brush head, rotary brush and hose",
+    img: "assets/img/products/sm-101/sm-101-sofa-maintainer-one-person-operation-15kg.jpg",
+    alt: "SM-101 15kg small sofa maintainer moved and operated by one person",
     model: "SM-101",
     name: "Small Sofa Maintainer",
     group: "eq",
