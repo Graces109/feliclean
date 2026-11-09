@@ -75,5 +75,15 @@ window.FELI_PRODUCTS = [
     group: "pl",
     cat: "upright-caution-board",
     parent: "caution-board"
+  },
+  {
+    href: "cn-105.html",
+    img: "assets/img/products/cn-105/cn105-01.jpg",
+    alt: "CN-105 small upright caution board, NO SMOKING",
+    model: "CN-105",
+    name: "Small Upright Caution Board",
+    group: "pl",
+    cat: "upright-caution-board",
+    parent: "caution-board"
   }
 ];
