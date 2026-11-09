@@ -4768,7 +4768,7 @@ section,
   background: #fff;
   transition: border-color .18s ease;
 }
-.pdp-thumb img { width: 100%; height: 78px; object-fit: cover; display: block; }
+.pdp-thumb img { width: 100%; height: 78px; object-fit: contain; background: #fff; display: block; }
 .pdp-thumb.active { border: 2px solid #16a34a; }
 /* gallery with more than six images: keep the original single-column strip, scale thumbs down so it stays level with the main image */
 .pdp-thumbs--many { gap: 8px; }
