@@ -37,6 +37,16 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
+    href: "sm-101.html",
+    img: "assets/img/products/sm-101/sm-101-sofa-maintainer-foam-brush-and-hose.jpg",
+    alt: "SM-101 small sofa maintainer with foam brush head, rotary brush and hose",
+    model: "SM-101",
+    name: "Small Sofa Maintainer",
+    group: "eq",
+    cat: "sofa-maintainer",
+    parent: "sofa-maintainer"
+  },
+  {
     href: "cn-101.html",
     img: "assets/img/products/cn-101/cn101-01.jpg",
     alt: "CN-101 small shape A caution board, PLEASE KEEP CLEAR",
