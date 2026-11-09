@@ -57,6 +57,16 @@ window.FELI_PRODUCTS = [
     parent: "sofa-maintainer"
   },
   {
+    href: "sm-103.html",
+    img: "assets/img/products/sm-103/sm-103-sofa-maintainer-foam-clean-and-dry.jpg",
+    alt: "SM-103 commercial sofa maintainer on white background with extraction hose and wand",
+    model: "SM-103",
+    name: "Commercial Sofa Maintainer",
+    group: "eq",
+    cat: "sofa-maintainer",
+    parent: "sofa-maintainer"
+  },
+  {
     href: "cn-101.html",
     img: "assets/img/products/cn-101/cn101-01.jpg",
     alt: "CN-101 small shape A caution board, PLEASE KEEP CLEAR",
