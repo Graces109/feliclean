@@ -47,6 +47,16 @@ window.FELI_PRODUCTS = [
     parent: "sofa-maintainer"
   },
   {
+    href: "sm-102.html",
+    img: "assets/img/products/sm-102/sm-102-large-sofa-maintainer-foam-clean-and-dry.jpg",
+    alt: "SM-102 large sofa maintainer with hose, brush and dual water tanks",
+    model: "SM-102",
+    name: "Large Sofa Maintainer",
+    group: "eq",
+    cat: "sofa-maintainer",
+    parent: "sofa-maintainer"
+  },
+  {
     href: "cn-101.html",
     img: "assets/img/products/cn-101/cn101-01.jpg",
     alt: "CN-101 small shape A caution board, PLEASE KEEP CLEAR",
