@@ -4883,3 +4883,108 @@ section,
   background: #fff;
 }
 .pdp-qty:focus { outline: none; border-color: #16a34a; }
+
+/*--------------------------------------------------------------
+# WhatsApp floating button
+--------------------------------------------------------------*/
+.wa-float {
+  position: fixed;
+  right: 15px;
+  bottom: 70px;
+  z-index: 99998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #25d366;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.wa-float i {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.wa-float::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.55);
+  animation: wa-float-pulse 2.2s infinite;
+  pointer-events: none;
+}
+
+@keyframes wa-float-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.wa-float:hover {
+  color: #fff;
+  background-color: #1eb956;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+}
+
+.wa-float .wa-float-label {
+  position: absolute;
+  right: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%) translateX(6px);
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #fff;
+  color: #128c4a;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  pointer-events: none;
+}
+
+.wa-float:hover .wa-float-label {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+  .wa-float {
+    width: 52px;
+    height: 52px;
+    right: 12px;
+    bottom: 68px;
+  }
+  .wa-float i {
+    font-size: 27px;
+  }
+  .wa-float .wa-float-label {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wa-float::after {
+    animation: none;
+  }
+  .wa-float,
+  .wa-float .wa-float-label {
+    transition: none;
+  }
+}
