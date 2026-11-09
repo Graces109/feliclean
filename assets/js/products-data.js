@@ -68,8 +68,8 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "cn-104.html",
-    img: "assets/img/products/cn-104/scene.jpg",
-    alt: "CN-104 large upright caution board",
+    img: "assets/img/products/cn-104/cn104-01.jpg",
+    alt: "CN-104 large upright caution board, Warning Ahead",
     model: "CN-104",
     name: "Large Upright Caution Board",
     group: "pl",
