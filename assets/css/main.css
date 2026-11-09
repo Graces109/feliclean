@@ -4770,14 +4770,10 @@ section,
 }
 .pdp-thumb img { width: 100%; height: 78px; object-fit: cover; display: block; }
 .pdp-thumb.active { border: 2px solid #16a34a; }
-/* gallery with many images: thumbs wrap into a grid so the main image keeps a sensible height */
-.pdp-thumbs--grid {
-  display: grid;
-  grid-template-columns: repeat(2, 74px);
-  gap: 10px;
-  flex: 0 0 auto;
-}
-.pdp-thumbs--grid .pdp-thumb img { height: 74px; }
+/* gallery with more than six images: keep the original single-column strip, scale thumbs down so it stays level with the main image */
+.pdp-thumbs--many { gap: 8px; }
+.pdp-thumbs--many .pdp-thumb img { height: 60px; }
+.pdp-main--cap img { max-height: 600px; }
 .pdp-main {
   flex: 1;
   background: #f6f8f7;
@@ -4814,8 +4810,8 @@ section,
 @media (max-width: 576px) {
   .pdp-thumbs { flex: 0 0 60px; }
   .pdp-thumb img { height: 60px; }
-  .pdp-thumbs--grid { grid-template-columns: repeat(3, 58px); gap: 8px; flex: 0 0 auto; }
-  .pdp-thumbs--grid .pdp-thumb img { height: 58px; }
+  .pdp-thumbs--many { gap: 8px; }
+  .pdp-thumbs--many .pdp-thumb img { height: 46px; }
   .pdp-main { min-height: 280px; }
   .pdp-title { font-size: 23px; }
 }
