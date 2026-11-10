@@ -259,7 +259,7 @@ window.FELI_PRODUCTS = [
     img: "assets/img/products/bm-101b/bm-101b-multi-functional-brush-machine-main.jpg",
     alt: "BM-101B multi functional brush machine with 8L water tank and 17 inch brush on white background",
     model: "BM-101B",
-    name: "Multi functional Brush Machine",
+    name: "8L Multi functional Brush Machine",
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
