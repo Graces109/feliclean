@@ -177,6 +177,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
+  },
+  {
+    href: "vm-103.html",
+    img: "assets/img/products/vm-103/vm-103-4.5l-upright-vacuum-cleaner-main-unit.jpg",
+    alt: "VM-103 4.5L upright vacuum cleaner in grey and black on white background",
+    model: "VM-103",
+    name: "4.5L Upright Vacuum Cleaner",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
   }
 
 ];
