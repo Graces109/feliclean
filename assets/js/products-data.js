@@ -220,6 +220,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
+  },
+
+  {
+    href: "vm-108.html",
+    img: "assets/img/products/vm-108/vm-108-80l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "VM-108 80L three motor wet and dry vacuum cleaner with stainless steel tank on white background",
+    model: "VM-108",
+    name: "80L 3 Motor Wet and Dry Vacuum Cleaner with Stainless Steel",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
   }
 
 ];
