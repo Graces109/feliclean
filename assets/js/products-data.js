@@ -116,7 +116,7 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
-  }
+  },
   {
     href: "cn-101.html",
     img: "assets/img/products/cn-101/cn101-01.jpg",
