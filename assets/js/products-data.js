@@ -316,7 +316,18 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
+  },
+  {
+    href: "bm-104b.html",
+    img: "assets/img/products/bm-104b/bm-104b-8l-multi-functional-brush-machine-white-background.jpg",
+    alt: "BM-104B 8L multi functional brush machine with a T-bar handle, stainless steel motor body and blue 17 inch brush deck on white background",
+    model: "BM-104B",
+    name: "8L Multi functional Brush Machine",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
   }
+
 
 
 ];
