@@ -198,6 +198,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
+  },
+
+  {
+    href: "vm-105.html",
+    img: "assets/img/products/vm-105/vm-105-15l-stainless-steel-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "VM-105 15L stainless steel wet and dry vacuum cleaner on white background",
+    model: "VM-105",
+    name: "15L Wet and Dry Vacuum Cleaner with Stainless Steel",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
   }
 
 ];
