@@ -98,6 +98,16 @@ window.FELI_PRODUCTS = [
     parent: "carpet-machine"
   },
   {
+    href: "cm-104.html",
+    img: "assets/img/products/cm-104/cm-104-carpet-washer-main-unit.jpg",
+    alt: "CM-104 3-in-1 carpet washer with roller brush and dual suction motors",
+    model: "CM-104",
+    name: "3-in-1 Carpet Washer",
+    group: "eq",
+    cat: "carpet-machine",
+    parent: "carpet-machine"
+  },
+  {
     href: "cn-101.html",
     img: "assets/img/products/cn-101/cn101-01.jpg",
     alt: "CN-101 small shape A caution board, PLEASE KEEP CLEAR",
