@@ -108,6 +108,16 @@ window.FELI_PRODUCTS = [
     parent: "carpet-machine"
   },
   {
+    href: "vm-101.html",
+    img: "assets/img/products/vm-101/vm-101-backpack-vacuum-cleaner-main-unit.jpg",
+    alt: "VM-101 backpack vacuum cleaner with 1000W motor and 3L dust container",
+    model: "VM-101",
+    name: "Backpack Vacuum Cleaner",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
+  }
+  {
     href: "cn-101.html",
     img: "assets/img/products/cn-101/cn101-01.jpg",
     alt: "CN-101 small shape A caution board, PLEASE KEEP CLEAR",
