@@ -167,4 +167,16 @@ window.FELI_PRODUCTS = [
     cat: "upright-caution-board",
     parent: "caution-board"
   }
+,
+  {
+    href: "vm-102.html",
+    img: "assets/img/products/vm-102/vm-102-5l-backpack-vacuum-cleaner-main-unit.jpg",
+    alt: "VM-102 5L backpack vacuum cleaner in blue and black on white background",
+    model: "VM-102",
+    name: "5L Backpack Vacuum Cleaner",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
+  }
+
 ];
