@@ -88,6 +88,16 @@ window.FELI_PRODUCTS = [
     parent: "carpet-machine"
   },
   {
+    href: "cm-103.html",
+    img: "assets/img/products/cm-103/cm-103-carpet-washer-plastic-tank.jpg",
+    alt: "CM-103 60L carpet washer with plastic tank body",
+    model: "CM-103",
+    name: "60L Carpet Washer (Plastic Tank)",
+    group: "eq",
+    cat: "carpet-machine",
+    parent: "carpet-machine"
+  },
+  {
     href: "cn-101.html",
     img: "assets/img/products/cn-101/cn101-01.jpg",
     alt: "CN-101 small shape A caution board, PLEASE KEEP CLEAR",
