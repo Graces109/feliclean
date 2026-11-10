@@ -187,6 +187,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
+  },
+
+  {
+    href: "vm-104.html",
+    img: "assets/img/products/vm-104/vm-104-30l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "VM-104 30L wet and dry vacuum cleaner in green on white background",
+    model: "VM-104",
+    name: "30L Wet and Dry Vacuum Cleaner",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
   }
 
 ];
