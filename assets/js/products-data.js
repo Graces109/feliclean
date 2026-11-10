@@ -66,6 +66,17 @@ window.FELI_PRODUCTS = [
     cat: "sofa-maintainer",
     parent: "sofa-maintainer"
   },
+
+  {
+    href: "cm-101.html",
+    img: "assets/img/products/cm-101/cm-101-carpet-washer-stainless-steel-tank.jpg",
+    alt: "CM-101 carpet washer with stainless steel tank for deep carpet extraction",
+    model: "CM-101",
+    name: "Carpet Washer",
+    group: "eq",
+    cat: "carpet-machine",
+    parent: "carpet-machine"
+  },
   {
     href: "cn-101.html",
     img: "assets/img/products/cn-101/cn101-01.jpg",
