@@ -356,8 +356,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
+  },
+  {
+    href: "bm-107.html",
+    img: "assets/img/products/bm-107/bm-107-high-speed-polisher-1800w-1500rpm-20-inch-white-background.jpg",
+    alt: "BM-107 high speed floor polisher with a teal painted base, full-perimeter black rubber skirt, stainless steel motor cover with black ring and teal cap, aluminium handle with loop grips, control panel and two transport wheels, on white background",
+    model: "BM-107",
+    name: "High Speed Polisher",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
   }
-
 
 
 ];
