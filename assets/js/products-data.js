@@ -263,6 +263,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
+  },
+
+  {
+    href: "bm-101c.html",
+    img: "assets/img/products/bm-101c/bm-101c-15l-multi-functional-brush-machine-white-background.jpg",
+    alt: "BM-101C 15L multi functional brush machine with white 15 litre water tank, red motor head and 17 inch brush on white background",
+    model: "BM-101C",
+    name: "15L Multi functional Brush Machine",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
   }
 
 ];
