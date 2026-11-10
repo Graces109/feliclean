@@ -231,6 +231,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
+  },
+
+  {
+    href: "vm-109.html",
+    img: "assets/img/products/vm-109/vm-109-90l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "VM-109 90L three motor wet and dry vacuum cleaner with plastic tank on white background",
+    model: "VM-109",
+    name: "90L 3 Motors Wet and Dry Vacuum Cleaner with Plastic Tank",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
   }
 
 ];
