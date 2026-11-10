@@ -112,7 +112,7 @@ window.FELI_PRODUCTS = [
     img: "assets/img/products/vm-101/vm-101-backpack-vacuum-cleaner-main-unit.jpg",
     alt: "VM-101 backpack vacuum cleaner with 1000W motor and 3L dust container",
     model: "VM-101",
-    name: "Backpack Vacuum Cleaner",
+    name: "3L Backpack Vacuum Cleaner Silent Type",
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
