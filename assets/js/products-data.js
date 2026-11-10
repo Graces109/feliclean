@@ -209,6 +209,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
+  },
+
+  {
+    href: "vm-106.html",
+    img: "assets/img/products/vm-106/vm-106-30l-stainless-steel-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "VM-106 30L stainless steel wet and dry vacuum cleaner on white background",
+    model: "VM-106",
+    name: "30L Wet and Dry Vacuum Cleaner with Stainless Steel",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
   }
 
 ];
