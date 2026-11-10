@@ -242,6 +242,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
+  },
+
+  {
+    href: "vm-110.html",
+    img: "assets/img/products/vm-110/vm-110-ultra-quiet-dry-vacuum-cleaner-main-unit-green.jpg",
+    alt: "VM-110 ultra quiet 10L dry vacuum cleaner with stainless steel barrel on white background",
+    model: "VM-110",
+    name: "Ultra-quiet Dry Vacuum Cleaner",
+    group: "eq",
+    cat: "vacuum-cleaner",
+    parent: "vacuum-cleaner"
   }
 
 ];
