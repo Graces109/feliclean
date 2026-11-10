@@ -326,7 +326,18 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
+  },
+  {
+    href: "bm-104c.html",
+    img: "assets/img/products/bm-104c/bm-104c-15l-multi-functional-brush-machine-white-background.jpg",
+    alt: "BM-104C 15L multi functional brush machine with a 15 litre white tank, blue loop handle and stainless steel motor cover on white background",
+    model: "BM-104C",
+    name: "15L Multi functional Brush Machine",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
   }
+
 
 
 
