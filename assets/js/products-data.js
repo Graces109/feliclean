@@ -70,9 +70,19 @@ window.FELI_PRODUCTS = [
   {
     href: "cm-101.html",
     img: "assets/img/products/cm-101/cm-101-carpet-washer-stainless-steel-tank.jpg",
-    alt: "CM-101 carpet washer with stainless steel tank for deep carpet extraction",
+    alt: "CM-101 carpet washer with stainless steel tank",
     model: "CM-101",
     name: "Carpet Washer",
+    group: "eq",
+    cat: "carpet-machine",
+    parent: "carpet-machine"
+  },
+  {
+    href: "cm-102.html",
+    img: "assets/img/products/cm-102/cm-102-carpet-washer-stainless-steel-tank.jpg",
+    alt: "CM-102 60L carpet washer with stainless steel tank",
+    model: "CM-102",
+    name: "60L Carpet Washer",
     group: "eq",
     cat: "carpet-machine",
     parent: "carpet-machine"
