@@ -336,6 +336,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
+  },
+  {
+    href: "bm-105.html",
+    img: "assets/img/products/bm-105/bm-105-multi-functional-brush-machine-white-background.jpg",
+    alt: "BM-105 multi functional brush machine with a white solution tank, Y-fork handle and green control panel, stainless steel motor cover and 18 inch brush deck, on white background",
+    model: "BM-105",
+    name: "Multi functional Brush Machine",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
   }
 
 
