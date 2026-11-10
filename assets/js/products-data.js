@@ -306,6 +306,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
+  },
+  {
+    href: "bm-104a.html",
+    img: "assets/img/products/bm-104a/bm-104a-8l-multi-functional-brush-machine-white-background.jpg",
+    alt: "BM-104A 8L multi functional brush machine with stainless steel motor body and aluminium base plate on white background",
+    model: "BM-104A",
+    name: "8L Multi functional Brush Machine",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
   }
+
 
 ];
