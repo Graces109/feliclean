@@ -346,8 +346,17 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
+  },
+  {
+    href: "bm-106.html",
+    img: "assets/img/products/bm-106/bm-106-8l-multi-functional-brush-machine-white-background.jpg",
+    alt: "BM-106 8L multi functional brush machine with a white 8 litre solution tank, red T-bar handle, 13 inch brush deck and anti-collision strip, on white background",
+    model: "BM-106",
+    name: "8L Multi functional Brush Machine",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
   }
-
 
 
 
