@@ -47,6 +47,16 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
+    href: "sd-104.html",
+    img: "assets/img/products/sd-104/sd-104-600mm-ride-on-scrubber-dryer-white-background.jpg",
+    alt: "SD-104 600mm manual ride-on scrubber dryer with white body, red top cover and one 22 inch disc brush",
+    model: "SD-104",
+    name: "600mm Manual Ride-On Scrubber Dryer",
+    group: "eq",
+    cat: "scrubber-dryer",
+    parent: "scrubber-dryer"
+  },
+  {
     href: "sm-101.html",
     img: "assets/img/products/sm-101/sm-101-sofa-maintainer-foam-brush-and-hose.jpg",
     alt: "SM-101 small sofa maintainer with foam brush head, rotary brush and hose",
