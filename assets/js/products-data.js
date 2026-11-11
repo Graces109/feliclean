@@ -406,6 +406,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "blower",
     parent: "blower"
+  },
+  {
+    href: "bl-103.html",
+    img: "assets/img/products/bl-103/bl-103-350w-3-speed-floor-blower-white-background.jpg",
+    alt: "BL-103 350W 3-speed floor blower in blue with a top carry handle, front control panel with two rotary dials, wide outlet grille at the base and large guarded side intake, on white background",
+    model: "BL-103",
+    name: "350W 3-Speed Blower",
+    group: "eq",
+    cat: "blower",
+    parent: "blower"
   }
 
 
