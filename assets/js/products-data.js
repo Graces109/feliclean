@@ -77,6 +77,16 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
+    href: "sd-111.html",
+    img: "assets/img/products/sd-111/sd-111-1050mm-manual-sweeper-white-background.jpg",
+    alt: "SD-111 1050mm manual sweeper with grey and black body, black push handle and two rotary side brushes",
+    model: "SD-111",
+    name: "1050mm Manual Sweeper",
+    group: "eq",
+    cat: "scrubber-dryer",
+    parent: "scrubber-dryer"
+  },
+  {
     href: "sm-101.html",
     img: "assets/img/products/sm-101/sm-101-sofa-maintainer-foam-brush-and-hose.jpg",
     alt: "SM-101 small sofa maintainer with foam brush head, rotary brush and hose",
