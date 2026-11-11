@@ -255,6 +255,16 @@ window.FELI_PRODUCTS = [
     parent: "vacuum-cleaner"
   },
   {
+    href: "bm-101a.html",
+    img: "assets/img/products/bm-101a/bm-101a-1100w-154rpm-17-inch-multi-functional-brush-machine-white-background.jpg",
+    alt: "BM-101A multi functional brush machine with red motor drum, white solution tank and 17 inch brush on white background",
+    model: "BM-101A",
+    name: "Multi functional Brush Machine",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
     href: "bm-101b.html",
     img: "assets/img/products/bm-101b/bm-101b-multi-functional-brush-machine-main.jpg",
     alt: "BM-101B multi functional brush machine with 8L water tank and 17 inch brush on white background",
