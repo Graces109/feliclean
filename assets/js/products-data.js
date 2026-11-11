@@ -308,6 +308,16 @@ window.FELI_PRODUCTS = [
     parent: "brush-machine"
   },
   {
+    href: "bm-103.html",
+    img: "assets/img/products/bm-103/bm-103-1100w-154rpm-17-inch-multi-functional-brush-machine-white-background.jpg",
+    alt: "BM-103 multi functional brush machine with a yellow painted drum body, grey vented motor dome, white solution tank, grey loop handle with a yellow control panel, chrome tube and a 17 inch base plate with a yellow bumper ring, on white background",
+    model: "BM-103",
+    name: "Multi functional Brush Machine",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
     href: "bm-104a.html",
     img: "assets/img/products/bm-104a/bm-104a-8l-multi-functional-brush-machine-white-background.jpg",
     alt: "BM-104A 8L multi functional brush machine with stainless steel motor body and aluminium base plate on white background",
