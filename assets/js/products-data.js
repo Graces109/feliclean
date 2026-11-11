@@ -386,6 +386,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
+  },
+  {
+    href: "bl-101.html",
+    img: "assets/img/products/bl-101/bl-101-135w-3-speed-floor-blower-white-background.jpg",
+    alt: "BL-101 135W 3-speed floor blower in blue with black control hood, digital panel and wide front outlet grille on white background",
+    model: "BL-101",
+    name: "135W 3-Speed Blower",
+    group: "eq",
+    cat: "blower",
+    parent: "blower"
   }
 
 
