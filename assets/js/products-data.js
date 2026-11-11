@@ -67,6 +67,16 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
+    href: "sd-106.html",
+    img: "assets/img/products/sd-106/sd-106-530mm-manual-scrubber-dryer-white-background.jpg",
+    alt: "SD-106 530mm manual walk-behind scrubber dryer with grey and red body, one 20 inch disc brush and a red squeegee",
+    model: "SD-106",
+    name: "530mm Manual Walk-Behind Scrubber Dryer",
+    group: "eq",
+    cat: "scrubber-dryer",
+    parent: "scrubber-dryer"
+  },
+  {
     href: "sm-101.html",
     img: "assets/img/products/sm-101/sm-101-sofa-maintainer-foam-brush-and-hose.jpg",
     alt: "SM-101 small sofa maintainer with foam brush head, rotary brush and hose",
