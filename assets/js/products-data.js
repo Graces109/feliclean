@@ -77,14 +77,14 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
-    href: "sd-111.html",
-    img: "assets/img/products/sd-111/sd-111-1050mm-manual-sweeper-white-background.jpg",
-    alt: "SD-111 1050mm manual sweeper with grey and black body, black push handle and two rotary side brushes",
-    model: "SD-111",
+    href: "ds-101.html",
+    img: "assets/img/products/ds-101/ds-101-1050mm-manual-sweeper-white-background.jpg",
+    alt: "DS-101 1050mm manual sweeper with grey and black body, black push handle and two rotary side brushes",
+    model: "DS-101",
     name: "1050mm Manual Sweeper",
     group: "eq",
-    cat: "scrubber-dryer",
-    parent: "scrubber-dryer"
+    cat: "sweeping-machine",
+    parent: "sweeping-machine"
   },
   {
     href: "sm-101.html",
