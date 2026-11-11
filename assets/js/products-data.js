@@ -97,6 +97,16 @@ window.FELI_PRODUCTS = [
     parent: "sweeping-machine"
   },
   {
+    href: "ds-103.html",
+    img: "assets/img/products/ds-103/ds-103-electric-driving-dust-push-cart-white-background.jpg",
+    alt: "DS-103 electric driving dust push cart in red with a ride-on seat and backrest, front mesh basket, foot platform, 8-inch solid tyres and a blue dust mop on a front linkage",
+    model: "DS-103",
+    name: "Electric Driving Dust Push Cart",
+    group: "eq",
+    cat: "sweeping-machine",
+    parent: "sweeping-machine"
+  },
+  {
     href: "sm-101.html",
     img: "assets/img/products/sm-101/sm-101-sofa-maintainer-foam-brush-and-hose.jpg",
     alt: "SM-101 small sofa maintainer with foam brush head, rotary brush and hose",
