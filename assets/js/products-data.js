@@ -99,7 +99,7 @@ window.FELI_PRODUCTS = [
   {
     href: "ds-103.html",
     img: "assets/img/products/ds-103/ds-103-electric-driving-dust-push-cart-white-background.jpg",
-    alt: "DS-103 electric driving dust push cart in red with a ride-on seat and backrest, front mesh basket, foot platform, 8-inch solid tyres and a blue dust mop on a front linkage",
+    alt: "DS-103 electric driving dust push cart in red with rear-view mirrors, a ride-on seat and backrest, front mesh basket, 8-inch solid tyres and two blue dust mops on front and rear linkages",
     model: "DS-103",
     name: "Electric Driving Dust Push Cart",
     group: "eq",
