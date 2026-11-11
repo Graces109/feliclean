@@ -87,6 +87,16 @@ window.FELI_PRODUCTS = [
     parent: "sweeping-machine"
   },
   {
+    href: "ds-102.html",
+    img: "assets/img/products/ds-102/ds-102-450mm-escalator-cleaner-white-background.jpg",
+    alt: "DS-102 450mm hand-push escalator cleaner with a beige canvas guard, green top cover, grey front hood and two rear wheels",
+    model: "DS-102",
+    name: "450mm Escalator Cleaner",
+    group: "eq",
+    cat: "sweeping-machine",
+    parent: "sweeping-machine"
+  },
+  {
     href: "sm-101.html",
     img: "assets/img/products/sm-101/sm-101-sofa-maintainer-foam-brush-and-hose.jpg",
     alt: "SM-101 small sofa maintainer with foam brush head, rotary brush and hose",
