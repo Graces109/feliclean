@@ -416,6 +416,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "blower",
     parent: "blower"
+  },
+  {
+    href: "bl-104.html",
+    img: "assets/img/products/bl-104/bl-104-900w-3-speed-floor-blower-blue-white-background.jpg",
+    alt: "BL-104 900W 3-speed floor blower in blue with a top carry handle, telescopic pull handle behind it, two rotary dials on the front panel, wide low outlet grille and rear wheels, on white background",
+    model: "BL-104",
+    name: "900W 3-Speed Blower",
+    group: "eq",
+    cat: "blower",
+    parent: "blower"
   }
 
 
