@@ -426,6 +426,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "blower",
     parent: "blower"
+  },
+  {
+    href: "bl-105.html",
+    img: "assets/img/products/bl-105/bl-105-hot-cold-3-speed-floor-blower-blue-white-background.jpg",
+    alt: "BL-105 hot and cold 3-speed floor blower in blue with a two-section retractable pull handle raised at the back, rubber wheels, a wide low outlet grille across the front base and a guarded round intake fan on the side, on white background",
+    model: "BL-105",
+    name: "Hot & Cold 3-Speed Blower",
+    group: "eq",
+    cat: "blower",
+    parent: "blower"
   }
 
 
