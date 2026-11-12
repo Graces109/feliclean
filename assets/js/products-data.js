@@ -117,6 +117,16 @@ window.FELI_PRODUCTS = [
     parent: "sweeping-machine"
   },
   {
+    href: "ds-105.html",
+    img: "assets/img/products/ds-105/ds-105-driving-type-sweeping-machine-white-background.jpg",
+    alt: "DS-105 driving type sweeping machine in blue and black with a blue canopy, steering wheel, operator seat, rear-view mirror, red chassis skirt, four black rotary edge brushes and solid tyres, on a clean white background",
+    model: "DS-105",
+    name: "Driving Type Sweeping Machine",
+    group: "eq",
+    cat: "sweeping-machine",
+    parent: "sweeping-machine"
+  },
+  {
     href: "sm-101.html",
     img: "assets/img/products/sm-101/sm-101-sofa-maintainer-foam-brush-and-hose.jpg",
     alt: "SM-101 small sofa maintainer with foam brush head, rotary brush and hose",
