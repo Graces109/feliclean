@@ -55,7 +55,7 @@ assets/img/products/型号小写/
   model: "PCA-103",
   name: "Product English Name",
   group: "pl",
-  cat: "new-shape-caution-board",
+  cat: "caution-board",
   parent: "caution-board"
 }
 ```
@@ -114,10 +114,7 @@ assets/img/products/型号小写/
 - `parent: tool-bucket` — Tool Bucket（无三级，`cat = tool-bucket`）
 - `parent: stainless-steel-dustbin` — Stainless Steel Dustbin（无三级，`cat = stainless-steel-dustbin`）
 - `parent: storage-bin` — Storage Bin（无三级，`cat = storage-bin`）
-- `parent: caution-board` — Caution Board，三级 `cat` 可选：
-  - `a-type-caution-board` — A Type caution board
-  - `new-shape-caution-board` — New shape caution board
-  - `upright-caution-board` — Upright caution board
+- `parent: caution-board` — Caution Board（无三级，`cat = caution-board`）
 
 ### sc — Service Cart
 二级（均无三级，`cat` = `parent`）：
@@ -231,10 +228,10 @@ git push origin master:main
 |---|---|---|---|---|---|
 | MSD-101 | Ride-On Scrubber Dryer Machine | eq | scrubber-dryer | scrubber-dryer | `msd-101.html` |
 | MSD-102 | 860mm Automatic Ride-On Scrubber Dryer | eq | scrubber-dryer | scrubber-dryer | `msd-102.html` |
-| PCA-101 | Small Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `pca-101.html` |
-| PCA-102 | Large Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `pca-102.html` |
-| PCA-103 | The Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `pca-103.html` |
-| PCA-104 | Large Upright Caution Board | pl | caution-board | upright-caution-board | `pca-104.html` |
+| PCA-101 | Small Shape of A Caution Board | pl | caution-board | caution-board | `pca-101.html` |
+| PCA-102 | Large Shape of A Caution Board | pl | caution-board | caution-board | `pca-102.html` |
+| PCA-103 | The Shape of A Caution Board | pl | caution-board | caution-board | `pca-103.html` |
+| PCA-104 | Large Upright Caution Board | pl | caution-board | caution-board | `pca-104.html` |
 
 ---
 

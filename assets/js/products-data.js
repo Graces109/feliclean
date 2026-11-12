@@ -244,7 +244,7 @@ window.FELI_PRODUCTS = [
     model: "PCA-101",
     name: "Small Shape of A Caution Board",
     group: "pl",
-    cat: "new-shape-caution-board",
+    cat: "caution-board",
     parent: "caution-board"
   },
   {
@@ -254,7 +254,7 @@ window.FELI_PRODUCTS = [
     model: "PCA-102",
     name: "Large Shape of A Caution Board",
     group: "pl",
-    cat: "new-shape-caution-board",
+    cat: "caution-board",
     parent: "caution-board"
   },
   {
@@ -264,7 +264,7 @@ window.FELI_PRODUCTS = [
     model: "PCA-103",
     name: "The Shape of A Caution Board",
     group: "pl",
-    cat: "new-shape-caution-board",
+    cat: "caution-board",
     parent: "caution-board"
   },
   {
@@ -274,7 +274,7 @@ window.FELI_PRODUCTS = [
     model: "PCA-104",
     name: "Large Upright Caution Board",
     group: "pl",
-    cat: "upright-caution-board",
+    cat: "caution-board",
     parent: "caution-board"
   },
   {
@@ -284,7 +284,7 @@ window.FELI_PRODUCTS = [
     model: "PCA-105",
     name: "Small Upright Caution Board",
     group: "pl",
-    cat: "upright-caution-board",
+    cat: "caution-board",
     parent: "caution-board"
   }
 ,
