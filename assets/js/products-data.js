@@ -67,10 +67,10 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
-    href: "msd-106.html",
-    img: "assets/img/products/msd-106/msd-106-530mm-manual-scrubber-dryer-white-background.jpg",
-    alt: "MSD-106 530mm manual walk-behind scrubber dryer with grey and red body, one 20 inch disc brush and a red squeegee",
-    model: "MSD-106",
+    href: "msd-107.html",
+    img: "assets/img/products/msd-107/msd-107-530mm-manual-scrubber-dryer-white-background.jpg",
+    alt: "MSD-107 530mm manual walk-behind scrubber dryer with grey and red body, one 20 inch disc brush and a red squeegee",
+    model: "MSD-107",
     name: "530mm Manual Walk-Behind Scrubber Dryer",
     group: "eq",
     cat: "scrubber-dryer",
