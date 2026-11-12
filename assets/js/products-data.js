@@ -228,10 +228,10 @@ window.FELI_PRODUCTS = [
     parent: "carpet-machine"
   },
   {
-    href: "vm-101.html",
-    img: "assets/img/products/vm-101/vm-101-backpack-vacuum-cleaner-main-unit.jpg",
-    alt: "VM-101 backpack vacuum cleaner with 1000W motor and 3L dust container",
-    model: "VM-101",
+    href: "mva-101.html",
+    img: "assets/img/products/mva-101/mva-101-backpack-vacuum-cleaner-main-unit.jpg",
+    alt: "MVA-101 backpack vacuum cleaner with 1000W motor and 3L dust container",
+    model: "MVA-101",
     name: "3L Backpack Vacuum Cleaner Silent Type",
     group: "eq",
     cat: "vacuum-cleaner",
@@ -289,20 +289,20 @@ window.FELI_PRODUCTS = [
   }
 ,
   {
-    href: "vm-102.html",
-    img: "assets/img/products/vm-102/vm-102-5l-backpack-vacuum-cleaner-main-unit.jpg",
-    alt: "VM-102 5L backpack vacuum cleaner in blue and black on white background",
-    model: "VM-102",
+    href: "mva-102.html",
+    img: "assets/img/products/mva-102/mva-102-5l-backpack-vacuum-cleaner-main-unit.jpg",
+    alt: "MVA-102 5L backpack vacuum cleaner in blue and black on white background",
+    model: "MVA-102",
     name: "5L Backpack Vacuum Cleaner",
     group: "eq",
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
   },
   {
-    href: "vm-103.html",
-    img: "assets/img/products/vm-103/vm-103-4.5l-upright-vacuum-cleaner-main-unit.jpg",
-    alt: "VM-103 4.5L upright vacuum cleaner in grey and black on white background",
-    model: "VM-103",
+    href: "mva-103.html",
+    img: "assets/img/products/mva-103/mva-103-4.5l-upright-vacuum-cleaner-main-unit.jpg",
+    alt: "MVA-103 4.5L upright vacuum cleaner in grey and black on white background",
+    model: "MVA-103",
     name: "4.5L Upright Vacuum Cleaner",
     group: "eq",
     cat: "vacuum-cleaner",
@@ -310,10 +310,10 @@ window.FELI_PRODUCTS = [
   },
 
   {
-    href: "vm-104.html",
-    img: "assets/img/products/vm-104/vm-104-30l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
-    alt: "VM-104 30L wet and dry vacuum cleaner in green on white background",
-    model: "VM-104",
+    href: "mva-104.html",
+    img: "assets/img/products/mva-104/mva-104-30l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "MVA-104 30L wet and dry vacuum cleaner in green on white background",
+    model: "MVA-104",
     name: "30L Wet and Dry Vacuum Cleaner",
     group: "eq",
     cat: "vacuum-cleaner",
@@ -321,10 +321,10 @@ window.FELI_PRODUCTS = [
   },
 
   {
-    href: "vm-105.html",
-    img: "assets/img/products/vm-105/vm-105-15l-stainless-steel-wet-and-dry-vacuum-cleaner-main-unit.jpg",
-    alt: "VM-105 15L stainless steel wet and dry vacuum cleaner on white background",
-    model: "VM-105",
+    href: "mva-105.html",
+    img: "assets/img/products/mva-105/mva-105-15l-stainless-steel-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "MVA-105 15L stainless steel wet and dry vacuum cleaner on white background",
+    model: "MVA-105",
     name: "15L Wet and Dry Vacuum Cleaner with Stainless Steel",
     group: "eq",
     cat: "vacuum-cleaner",
@@ -332,10 +332,10 @@ window.FELI_PRODUCTS = [
   },
 
   {
-    href: "vm-106.html",
-    img: "assets/img/products/vm-106/vm-106-30l-stainless-steel-wet-and-dry-vacuum-cleaner-main-unit.jpg",
-    alt: "VM-106 30L stainless steel wet and dry vacuum cleaner on white background",
-    model: "VM-106",
+    href: "mva-106.html",
+    img: "assets/img/products/mva-106/mva-106-30l-stainless-steel-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "MVA-106 30L stainless steel wet and dry vacuum cleaner on white background",
+    model: "MVA-106",
     name: "30L Wet and Dry Vacuum Cleaner with Stainless Steel",
     group: "eq",
     cat: "vacuum-cleaner",
@@ -343,10 +343,10 @@ window.FELI_PRODUCTS = [
   },
 
   {
-    href: "vm-108.html",
-    img: "assets/img/products/vm-108/vm-108-80l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
-    alt: "VM-108 80L three motor wet and dry vacuum cleaner with stainless steel tank on white background",
-    model: "VM-108",
+    href: "mva-108.html",
+    img: "assets/img/products/mva-108/mva-108-80l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "MVA-108 80L three motor wet and dry vacuum cleaner with stainless steel tank on white background",
+    model: "MVA-108",
     name: "80L 3 Motor Wet and Dry Vacuum Cleaner with Stainless Steel",
     group: "eq",
     cat: "vacuum-cleaner",
@@ -354,10 +354,10 @@ window.FELI_PRODUCTS = [
   },
 
   {
-    href: "vm-109.html",
-    img: "assets/img/products/vm-109/vm-109-90l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
-    alt: "VM-109 90L three motor wet and dry vacuum cleaner with plastic tank on white background",
-    model: "VM-109",
+    href: "mva-109.html",
+    img: "assets/img/products/mva-109/mva-109-90l-wet-and-dry-vacuum-cleaner-main-unit.jpg",
+    alt: "MVA-109 90L three motor wet and dry vacuum cleaner with plastic tank on white background",
+    model: "MVA-109",
     name: "90L 3 Motors Wet and Dry Vacuum Cleaner with Plastic Tank",
     group: "eq",
     cat: "vacuum-cleaner",
@@ -365,10 +365,10 @@ window.FELI_PRODUCTS = [
   },
 
   {
-    href: "vm-110.html",
-    img: "assets/img/products/vm-110/vm-110-ultra-quiet-dry-vacuum-cleaner-main-unit-green.jpg",
-    alt: "VM-110 ultra quiet 10L dry vacuum cleaner with stainless steel barrel on white background",
-    model: "VM-110",
+    href: "mva-110.html",
+    img: "assets/img/products/mva-110/mva-110-ultra-quiet-dry-vacuum-cleaner-main-unit-green.jpg",
+    alt: "MVA-110 ultra quiet 10L dry vacuum cleaner with stainless steel barrel on white background",
+    model: "MVA-110",
     name: "10L Ultra-quiet Dry Vacuum Cleaner",
     group: "eq",
     cat: "vacuum-cleaner",
