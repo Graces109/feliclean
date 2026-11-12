@@ -230,6 +230,7 @@ git push origin master:main
 | 型号 | 品名 | 一级 group | 二级 parent | 三级 cat | 详情页 |
 |---|---|---|---|---|---|
 | MSD-101 | Ride-On Scrubber Dryer Machine | eq | scrubber-dryer | scrubber-dryer | `msd-101.html` |
+| MSD-102 | 860mm Automatic Ride-On Scrubber Dryer | eq | scrubber-dryer | scrubber-dryer | `msd-102.html` |
 | CN-101 | Small Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-101.html` |
 | CN-102 | Large Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-102.html` |
 | CN-103 | The Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-103.html` |

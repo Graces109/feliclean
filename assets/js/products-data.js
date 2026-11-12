@@ -27,6 +27,16 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
+    href: "msd-102.html",
+    img: "assets/img/products/msd-102/msd-102-860mm-ride-on-scrubber-dryer-white-background.jpg",
+    alt: "860mm automatic ride-on scrubber dryer MSD-102 for warehouse and factory floor cleaning, white and red body with twin disc brushes",
+    model: "MSD-102",
+    name: "860mm Automatic Ride-On Scrubber Dryer",
+    group: "eq",
+    cat: "scrubber-dryer",
+    parent: "scrubber-dryer"
+  },
+  {
     href: "msd-103.html",
     img: "assets/img/products/msd-103/msd-103-1060mm-ride-on-scrubber-dryer-white-background.jpg",
     alt: "MSD-103 1060mm automatic ride-on scrubber dryer with grey body, red top cover and amber beacon",
