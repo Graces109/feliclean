@@ -107,20 +107,20 @@ window.FELI_PRODUCTS = [
     parent: "sweeping-machine"
   },
   {
-    href: "ds-104.html",
-    img: "assets/img/products/ds-104/ds-104-driving-type-sweeping-machine-white-background.jpg",
-    alt: "DS-104 driving type sweeping machine in blue and black with a canopy, steering wheel, operator seat, two black edge brushes and solid tyres, on a clean white background",
-    model: "DS-104",
+    href: "ds-106.html",
+    img: "assets/img/products/ds-106/ds-106-driving-type-sweeping-machine-white-background.jpg",
+    alt: "DS-106 driving type sweeping machine in blue and black with a canopy, steering wheel, operator seat, two black edge brushes and solid tyres, on a clean white background",
+    model: "DS-106",
     name: "Driving Type Sweeping Machine",
     group: "eq",
     cat: "sweeping-machine",
     parent: "sweeping-machine"
   },
   {
-    href: "ds-105.html",
-    img: "assets/img/products/ds-105/ds-105-driving-type-sweeping-machine-white-background.jpg",
-    alt: "DS-105 driving type sweeping machine in blue and black with a blue canopy, steering wheel, operator seat, rear-view mirror, red chassis skirt, four black rotary edge brushes and solid tyres, on a clean white background",
-    model: "DS-105",
+    href: "ds-107.html",
+    img: "assets/img/products/ds-107/ds-107-driving-type-sweeping-machine-white-background.jpg",
+    alt: "DS-107 driving type sweeping machine in blue and black with a blue canopy, steering wheel, operator seat, rear-view mirror, red chassis skirt, four black rotary edge brushes and solid tyres, on a clean white background",
+    model: "DS-107",
     name: "Driving Type Sweeping Machine",
     group: "eq",
     cat: "sweeping-machine",
