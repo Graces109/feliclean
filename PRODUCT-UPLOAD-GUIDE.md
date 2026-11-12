@@ -105,13 +105,13 @@ assets/img/products/型号小写/
 
 ### pl — Plastic
 - `parent: wringer-trolley` — Wringer Trolley（无三级，`cat = wringer-trolley`）
-- `parent: dustbin` — Dustbin（无三级，`cat = dustbin`）
-- `parent: tool-bucket` — Tool Bucket，三级 `cat` 可选：
+- `parent: dustbin` — Dustbin，三级 `cat` 可选：
   - `pedal-garbage-bin` — Pedal Garbage Bin
   - `turning-cover-dustbin` — Turning Cover Dustbin
   - `classification-dustbin` — Classification Dustbin
   - `bathroom-dustbin` — Bathroom Dustbin
   - `outdoor-garbage-cart` — Outdoor Garbage Cart
+- `parent: tool-bucket` — Tool Bucket（无三级，`cat = tool-bucket`）
 - `parent: stainless-steel-dustbin` — Stainless Steel Dustbin（无三级，`cat = stainless-steel-dustbin`）
 - `parent: storage-bin` — Storage Bin（无三级，`cat = storage-bin`）
 - `parent: caution-board` — Caution Board，三级 `cat` 可选：
