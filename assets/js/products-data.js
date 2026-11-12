@@ -67,6 +67,16 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
+    href: "msd-106.html",
+    img: "assets/img/products/msd-106/msd-106-860mm-ride-on-scrubber-dryer-white-background.jpg",
+    alt: "MSD-106 860mm ride-on scrubber dryer with white and red body, black seat and twin 16 inch disc brushes",
+    model: "MSD-106",
+    name: "860mm Twin-Disc Ride-On Scrubber Dryer",
+    group: "eq",
+    cat: "scrubber-dryer",
+    parent: "scrubber-dryer"
+  },
+  {
     href: "msd-107.html",
     img: "assets/img/products/msd-107/msd-107-530mm-manual-scrubber-dryer-white-background.jpg",
     alt: "MSD-107 530mm manual walk-behind scrubber dryer with grey and red body, one 20 inch disc brush and a red squeegee",
