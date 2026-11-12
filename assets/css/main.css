@@ -4408,7 +4408,7 @@ section,
   .category-heading h3 { font-size: 20px; }
 }
 
-/* ---- SD-101 product detail block ---- */
+/* ---- MSD-101 product detail block ---- */
 .sd-product { margin-top: 8px; }
 .sd-product .sd-title { font-size: 26px; font-weight: 700; color: #111; margin: 0 0 6px; line-height: 1.3; }
 .sd-product .sd-title-sub { color: #6b7280; font-size: 15px; margin-bottom: 24px; }
@@ -4421,7 +4421,7 @@ section,
 .sd-thumbs .sd-thumb.active { border-color: #16a34a; box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.25); }
 .sd-thumbs img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-/* SD-101 lightbox */
+/* MSD-101 lightbox */
 .sd-lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.92); z-index: 9999; display: none; align-items: center; justify-content: center; }
 .sd-lightbox.open { display: flex; }
 .sd-lightbox img.sd-lb-img { max-width: 90%; max-height: 88vh; border-radius: 8px; box-shadow: 0 10px 40px rgba(0,0,0,.6); }
