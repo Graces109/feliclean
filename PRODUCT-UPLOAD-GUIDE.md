@@ -15,7 +15,7 @@
 | 六个一级类目列表页 | `cleaning-equipment.html`、`plastic.html`、`service-cart.html`、`cleaning-tools.html`、`mop.html`、`hotel-supplies.html` | 各页只显示所属一级分组产品 |
 | 左侧三级类目导航树 | 上述七个页面侧栏 | 一级手风琴展开、二级点击筛选、三级悬浮显示 |
 | 卡片样式（1:1 缩略图、型号、品名、12 条/页分页、空状态提示） | `assets/css/main.css` + `assets/js/catalog.js` | 由登记表自动渲染，无需手工复制卡片 |
-| 详情页母版（左图库右信息、参数表、产品描述、数量框、黄色 Get a Quote、WhatsApp、图库点击切换与放大） | `cn-102.html`（作为复制母版） | 新详情页一律复制此文件再替换文字与参数 |
+| 详情页母版（左图库右信息、参数表、产品描述、数量框、黄色 Get a Quote、WhatsApp、图库点击切换与放大） | `pca-102.html`（作为复制母版） | 新详情页一律复制此文件再替换文字与参数 |
 | 询盘表单 | `quote.html` | 自动接收链接里的型号、品名、数量并回填，提交到 FormSubmit |
 
 **设计保存位置**：网站全部代码同时保存在**本地仓库**和 **GitHub 远程仓库**，二者提交记录一致（当前版本 `7d34694`），不会因浏览器缓存或换电脑而丢失。以后只要不改动上表文件的结构，页面外观就始终保持一致。
@@ -36,7 +36,7 @@ assets/img/products/型号小写/
 ```
 
 ### 第 2 步：建详情页
-复制母版 `cn-102.html`，另存为 **`型号小写.html`**（例如 `cn-103.html`），按 [第六节 详情页替换清单](#六详情页母版替换清单以-cn-102html-为基准) 逐处替换标题、面包屑、图库、参数表、描述、卖点和询盘型号。
+复制母版 `pca-102.html`，另存为 **`型号小写.html`**（例如 `pca-103.html`），按 [第六节 详情页替换清单](#六详情页母版替换清单以-pca-102html-为基准) 逐处替换标题、面包屑、图库、参数表、描述、卖点和询盘型号。
 
 ### 第 3 步：在登记表加一条记录
 打开 `assets/js/products-data.js`，在 `window.FELI_PRODUCTS = [ ... ]` 数组末尾、最后一条记录的 `}` 后面加一条新记录（逗号不要漏）。保存后提交推送，**总览页和对应类目页会自动出现这款产品的卡片**，不用再打开任何列表页手工添加。
@@ -49,10 +49,10 @@ assets/img/products/型号小写/
 
 ```js
 {
-  href: "cn-103.html",
-  img: "assets/img/products/cn-103/scene.jpg",
-  alt: "CN-103 description of the product",
-  model: "CN-103",
+  href: "pca-103.html",
+  img: "assets/img/products/pca-103/scene.jpg",
+  alt: "PCA-103 description of the product",
+  model: "PCA-103",
   name: "Product English Name",
   group: "pl",
   cat: "new-shape-caution-board",
@@ -62,7 +62,7 @@ assets/img/products/型号小写/
 
 | 字段 | 含义 | 填写规则 |
 |---|---|---|
-| `href` | 详情页文件名 | 与第 2 步新建的 HTML 文件名一致，如 `cn-103.html` |
+| `href` | 详情页文件名 | 与第 2 步新建的 HTML 文件名一致，如 `pca-103.html` |
 | `img` | 卡片缩略图 | 指向第一张主图（`scene.jpg`），即详情页默认大图同一张 |
 | `alt` | 图片无障碍说明 | 英文，简述产品与视角，便于 SEO |
 | `model` | 型号 | 与页面标题、参数表、询盘里的型号完全一致 |
@@ -153,7 +153,7 @@ assets/img/products/型号小写/
 
 ---
 
-## 六、详情页母版替换清单（以 `cn-102.html` 为基准）
+## 六、详情页母版替换清单（以 `pca-102.html` 为基准）
 
 复制母版后，按下表逐处替换；**页面框架、CSS 类名、脚本结构保持不动**。
 
@@ -231,10 +231,10 @@ git push origin master:main
 |---|---|---|---|---|---|
 | MSD-101 | Ride-On Scrubber Dryer Machine | eq | scrubber-dryer | scrubber-dryer | `msd-101.html` |
 | MSD-102 | 860mm Automatic Ride-On Scrubber Dryer | eq | scrubber-dryer | scrubber-dryer | `msd-102.html` |
-| CN-101 | Small Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-101.html` |
-| CN-102 | Large Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-102.html` |
-| CN-103 | The Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `cn-103.html` |
-| CN-104 | Large Upright Caution Board | pl | caution-board | upright-caution-board | `cn-104.html` |
+| PCA-101 | Small Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `pca-101.html` |
+| PCA-102 | Large Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `pca-102.html` |
+| PCA-103 | The Shape of A Caution Board | pl | caution-board | new-shape-caution-board | `pca-103.html` |
+| PCA-104 | Large Upright Caution Board | pl | caution-board | upright-caution-board | `pca-104.html` |
 
 ---
 
@@ -244,4 +244,4 @@ git push origin master:main
 - 脚本：`assets/js/catalog.js`（渲染 / 筛选 / 分页）、`assets/js/main.js`（全站交互）
 - 样式：`assets/css/main.css`（卡片、详情页、侧栏类目树样式）
 - 询盘表单：`quote.html`
-- 详情页母版：`cn-102.html`（复制使用，不要在母版上直接改）
+- 详情页母版：`pca-102.html`（复制使用，不要在母版上直接改）

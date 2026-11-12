@@ -26,7 +26,7 @@
 <url><loc>https://feliclean.com/mso-101.html</loc><priority>0.7</priority></url>
   <url><loc>https://feliclean.com/mso-102.html</loc><priority>0.7</priority></url>
   <url><loc>https://feliclean.com/mso-103.html</loc><priority>0.7</priority></url>
-  <url><loc>https://feliclean.com/cn-101.html</loc><priority>0.6</priority></url>
+  <url><loc>https://feliclean.com/pca-101.html</loc><priority>0.6</priority></url>
   <url><loc>https://feliclean.com/mca-101.html</loc><priority>0.6</priority></url>
   <url><loc>https://feliclean.com/mca-102.html</loc><priority>0.6</priority></url>
   <url><loc>https://feliclean.com/mca-103.html</loc><priority>0.6</priority></url>
@@ -54,10 +54,10 @@
   <url><loc>https://feliclean.com/mbl-103.html</loc><priority>0.6</priority></url>
   <url><loc>https://feliclean.com/mbl-104.html</loc><priority>0.6</priority></url>
   <url><loc>https://feliclean.com/mbl-105.html</loc><priority>0.6</priority></url>
-  <url><loc>https://feliclean.com/cn-102.html</loc><priority>0.6</priority></url>
-  <url><loc>https://feliclean.com/cn-103.html</loc><priority>0.6</priority></url>
-  <url><loc>https://feliclean.com/cn-104.html</loc><priority>0.6</priority></url>
-  <url><loc>https://feliclean.com/cn-105.html</loc><priority>0.6</priority></url>
+  <url><loc>https://feliclean.com/pca-102.html</loc><priority>0.6</priority></url>
+  <url><loc>https://feliclean.com/pca-103.html</loc><priority>0.6</priority></url>
+  <url><loc>https://feliclean.com/pca-104.html</loc><priority>0.6</priority></url>
+  <url><loc>https://feliclean.com/pca-105.html</loc><priority>0.6</priority></url>
   <url><loc>https://feliclean.com/download.html</loc><priority>0.5</priority></url>
   <url><loc>https://feliclean.com/quote.html</loc><priority>0.4</priority></url>
 </urlset>
