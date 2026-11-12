@@ -27,16 +27,6 @@ window.FELI_PRODUCTS = [
     parent: "scrubber-dryer"
   },
   {
-    href: "msd-102.html",
-    img: "assets/img/products/msd-102/main.jpg",
-    alt: "MSD-102 660mm auto/manual ride-on scrubber dryer",
-    model: "MSD-102",
-    name: "660mm Auto/Manual Ride-On Scrubber Dryer",
-    group: "eq",
-    cat: "scrubber-dryer",
-    parent: "scrubber-dryer"
-  },
-  {
     href: "msd-103.html",
     img: "assets/img/products/msd-103/msd-103-1060mm-ride-on-scrubber-dryer-white-background.jpg",
     alt: "MSD-103 1060mm automatic ride-on scrubber dryer with grey body, red top cover and amber beacon",
