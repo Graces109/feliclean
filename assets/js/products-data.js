@@ -117,6 +117,16 @@ window.FELI_PRODUCTS = [
     parent: "sweeping-machine"
   },
   {
+    href: "ds-105.html",
+    img: "assets/img/products/ds-105/ds-105-20-meters-high-pressure-car-wash-machine-white-background.jpg",
+    alt: "DS-105 20 meters high pressure car wash machine, a four-wheel trolley pressure washer in red and black with a red hose reel on top holding a 20 m hose and a brass pump head, on a clean white background",
+    model: "DS-105",
+    name: "20 Meters High Pressure Car Wash Machine",
+    group: "eq",
+    cat: "sweeping-machine",
+    parent: "sweeping-machine"
+  },
+  {
     href: "ds-106.html",
     img: "assets/img/products/ds-106/ds-106-driving-type-sweeping-machine-white-background.jpg",
     alt: "DS-106 driving type sweeping machine in blue and black with a canopy, steering wheel, operator seat, two black edge brushes and solid tyres, on a clean white background",
