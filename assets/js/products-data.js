@@ -387,9 +387,9 @@ window.FELI_PRODUCTS = [
   {
     href: "mbr-101b.html",
     img: "assets/img/products/mbr-101b/mbr-101b-multi-functional-brush-machine-main.jpg",
-    alt: "MBR-101B multi functional brush machine with 8L water tank and 17 inch brush on white background",
+    alt: "17 inch multi-function brushing machine MBR-101B with 8L solution tank and red motor drum on white background",
     model: "MBR-101B",
-    name: "8L Multi functional Brush Machine",
+    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
