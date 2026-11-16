@@ -576,6 +576,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-103.html",
+    img: "assets/img/products/aeq-103/aeq-103b-154rpm-pad-holder-studded-grip-face-white-background.jpg",
+    alt: "154rpm pad holder AEQ-103 drive pad holder with studded grip face for floor scrubber and buffer pads, 17 inch standard with 18 inch AEQ-103A, white background",
+    model: "AEQ-103",
+    name: "154rpm Pad Holder",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
