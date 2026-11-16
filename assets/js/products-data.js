@@ -460,9 +460,9 @@ window.FELI_PRODUCTS = [
   {
     href: "mbr-104b.html",
     img: "assets/img/products/mbr-104b/mbr-104b-8l-multi-functional-brush-machine-white-background.jpg",
-    alt: "MBR-104B 8L multi functional brush machine with a T-bar handle, stainless steel motor body and blue 17 inch brush deck on white background",
+    alt: "17 inch multi-function brushing machine MBR-104B with 8L solution tank and aluminium base plate on white background",
     model: "MBR-104B",
-    name: "8L Multi functional Brush Machine",
+    name: "17 Inch Multi-Function Brushing Machine 175rpm Speed",
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
