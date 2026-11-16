@@ -480,9 +480,9 @@ window.FELI_PRODUCTS = [
   {
     href: "mbr-105.html",
     img: "assets/img/products/mbr-105/mbr-105-multi-functional-brush-machine-white-background.jpg",
-    alt: "MBR-105 multi functional brush machine with a white solution tank, Y-fork handle and green control panel, stainless steel motor cover and 18 inch brush deck, on white background",
+    alt: "18 inch multi-function brushing machine MBR-105 with white solution tank and 18 inch brush deck on white background",
     model: "MBR-105",
-    name: "Multi functional Brush Machine",
+    name: "18 Inch Multi-Function Brushing Machine 175rpm Speed",
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
