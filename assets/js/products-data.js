@@ -556,6 +556,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "blower",
     parent: "blower"
+  },
+  {
+    href: "aeq-101.html",
+    img: "assets/img/products/aeq-101/aeq-101b-154rpm-floor-brush-17-inch-black-bristle-white-background.jpg",
+    alt: "17 inch 154rpm floor brush AEQ-101B with black bristle and steel centre hub for single-disc floor scrubber and polisher, white background",
+    model: "AEQ-101B",
+    name: "154rpm Floor Brush",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
