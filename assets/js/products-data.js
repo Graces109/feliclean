@@ -689,8 +689,8 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "pwr-103a.html",
-    img: "assets/img/products/pwr-103a/pwr-103a-32l-single-mop-wringer-trolley-with-drain-hose-white-background.jpg",
-    alt: "32L single mop wringer trolley PWR-103A with drain hose, PP wringer basket and four swivel castors for schools, hospitals and warehouses, white background",
+    img: "assets/img/products/pwr-103a/pwr-103a-32l-single-mop-wringer-trolley-white-background.jpg",
+    alt: "32L single mop wringer trolley PWR-103A with clip-on PP wringer basket and four swivel castors for schools, hospitals and warehouses, white background",
     model: "PWR-103A",
     name: "32L Single Mop Wringer Trolley",
     group: "pl",
