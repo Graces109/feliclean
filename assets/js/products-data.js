@@ -666,6 +666,16 @@ window.FELI_PRODUCTS = [
     group: "pl",
     cat: "wringer-trolley",
     parent: "wringer-trolley"
+  },
+  {
+    href: "pwr-102a.html",
+    img: "assets/img/products/pwr-102a/pwr-102a-24l-single-mop-wringer-trolley-white-background.jpg",
+    alt: "24L single mop wringer trolley PWR-102A with side-press wringer basket and four swivel castors for restaurants, offices and small hotel floors, white background",
+    model: "PWR-102A",
+    name: "Single Mop Wringer Trolley",
+    group: "pl",
+    cat: "wringer-trolley",
+    parent: "wringer-trolley"
   }
 
 
