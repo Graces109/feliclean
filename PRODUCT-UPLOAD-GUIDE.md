@@ -232,6 +232,8 @@ git push origin master:main
 | PCA-102 | Large Shape of A Caution Board | pl | caution-board | caution-board | `pca-102.html` |
 | PCA-103 | The Shape of A Caution Board | pl | caution-board | caution-board | `pca-103.html` |
 | PCA-104 | Large Upright Caution Board | pl | caution-board | caution-board | `pca-104.html` |
+| AEQ-101 | 154rpm Floor Brush | eq | equipment-accessories | equipment-accessories | `aeq-101.html` |
+| AEQ-102 | 154rpm Carpet Brush | eq | equipment-accessories | equipment-accessories | `aeq-102.html` |
 
 ---
 
