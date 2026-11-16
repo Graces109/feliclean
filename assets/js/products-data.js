@@ -440,9 +440,9 @@ window.FELI_PRODUCTS = [
   {
     href: "mbr-103.html",
     img: "assets/img/products/mbr-103/mbr-103-1100w-154rpm-17-inch-multi-functional-brush-machine-white-background.jpg",
-    alt: "MBR-103 multi functional brush machine with a yellow painted drum body, grey vented motor dome, white solution tank, grey loop handle with a yellow control panel, chrome tube and a 17 inch base plate with a yellow bumper ring, on white background",
+    alt: "17 inch multi-function brushing machine MBR-103 with yellow drum body, grey die-cast base and white solution tank on white background",
     model: "MBR-103",
-    name: "Multi functional Brush Machine",
+    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
