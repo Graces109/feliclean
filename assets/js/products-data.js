@@ -430,9 +430,9 @@ window.FELI_PRODUCTS = [
   {
     href: "mbr-102c.html",
     img: "assets/img/products/mbr-102c/mbr-102c-15l-multi-functional-brush-machine-white-background.jpg",
-    alt: "MBR-102C 15L multi functional brush machine with a white 15 litre water tank, yellow and black motor head and 17 inch yellow plastic base plate",
+    alt: "17 inch multi-function brushing machine MBR-102C with 15L solution tank, yellow motor head and plastic base plate on white background",
     model: "MBR-102C",
-    name: "15L Multi functional Brush Machine",
+    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
