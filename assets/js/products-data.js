@@ -566,6 +566,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-102.html",
+    img: "assets/img/products/aeq-102/aeq-102b-154rpm-carpet-brush-two-tone-bristle-white-background.jpg",
+    alt: "154rpm carpet brush AEQ-102 rotary brush for carpet extractor and buffer, white inner and black outer bristle, 17 inch standard with 18 and 13 inch sizes, white background",
+    model: "AEQ-102",
+    name: "154rpm Carpet Brush",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
