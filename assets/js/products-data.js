@@ -596,6 +596,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-105.html",
+    img: "assets/img/products/aeq-105/aeq-105b-175rpm-carpet-brush-two-tone-bristle-white-background.jpg",
+    alt: "175rpm carpet brush AEQ-105 rotary carpet brush with white inner and black outer bristle for 175 rpm floor machine carpet shampoo, 17 inch standard with 18 inch AEQ-105A, white background",
+    model: "AEQ-105",
+    name: "175rpm Carpet Brush",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
