@@ -254,6 +254,7 @@ git push origin master:main
 | PWR-106 | 36L Down-Press Double Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-106.html` |
 | PWR-107 | 50L Double Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-107.html` |
 | PWR-108 | 35L/15/4L Down-Press Double Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-108.html` |
+| PST-101 | Round Storage Bin | pl | storage-bin | storage-bin | `pst-101.html` |
 
 ---
 

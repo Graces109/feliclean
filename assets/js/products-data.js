@@ -768,6 +768,16 @@ window.FELI_PRODUCTS = [
     parent: "wringer-trolley"
   },
   {
+    href: "pst-101.html",
+    img: "assets/img/products/pst-101/pst-101-round-storage-bin-white-background.jpg",
+    alt: "Round storage bin PST-101, 23L and 40L wheeled plastic bin with lid, rim ears and four castors for hotels, restaurants, hospitals and laundry rooms, white background",
+    model: "PST-101",
+    name: "Round Storage Bin",
+    group: "pl",
+    cat: "storage-bin",
+    parent: "storage-bin"
+  },
+  {
     href: "pwr-108.html",
     img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
     alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
