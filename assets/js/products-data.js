@@ -747,6 +747,16 @@ window.FELI_PRODUCTS = [
     cat: "wringer-trolley",
     parent: "wringer-trolley"
   },
+  {
+    href: "pwr-106.html",
+    img: "assets/img/products/pwr-106/pwr-106-36l-down-press-double-mop-wringer-trolley-white-background.jpg",
+    alt: "36L down-press double mop wringer trolley PWR-106 with blue clean bucket, red dirty bucket and four swivel castors for hotels, hospitals and large floors, white background",
+    model: "PWR-106",
+    name: "36L Down-Press Double Mop Wringer Trolley",
+    group: "pl",
+    cat: "wringer-trolley",
+    parent: "wringer-trolley"
+  },
 
 
 ];
