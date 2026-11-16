@@ -636,6 +636,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-109.html",
+    img: "assets/img/products/aeq-109/aeq-109-red-floor-pad-17-20-inch-white-background.jpg",
+    alt: "red floor pad AEQ-109 red non-woven scrubbing pad for single disc floor machine scrubbing and spray buffing, 17 inch standard with 20 inch AEQ-109A, white background",
+    model: "AEQ-109",
+    name: "Red Floor Pad",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 

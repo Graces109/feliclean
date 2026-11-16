@@ -240,6 +240,7 @@ git push origin master:main
 | AEQ-106 | 175rpm Pad Holder | eq | equipment-accessories | equipment-accessories | `aeq-106.html` |
 | AEQ-107 | Burnish Plate | eq | equipment-accessories | equipment-accessories | `aeq-107.html` |
 | AEQ-108 | White Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-108.html` |
+| AEQ-109 | Red Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-109.html` |
 
 ---
 
