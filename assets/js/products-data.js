@@ -616,6 +616,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-107.html",
+    img: "assets/img/products/aeq-107/aeq-107-20-inch-burnish-plate-white-background.jpg",
+    alt: "20 inch burnish plate AEQ-107 with textured burnishing face and blue centre hub with six screws for a high speed floor burnisher, white background",
+    model: "AEQ-107",
+    name: "Burnish Plate",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
