@@ -726,7 +726,17 @@ window.FELI_PRODUCTS = [
     group: "pl",
     cat: "wringer-trolley",
     parent: "wringer-trolley"
-  }
+  },
+  {
+    href: "pwr-105a.html",
+    img: "assets/img/products/pwr-105a/pwr-105a-20l-single-mop-wringer-trolley-white-background.jpg",
+    alt: "20L single mop wringer trolley PWR-105A with down-press wringer and four iron castors for hotel rooms, clinics and offices, white background",
+    model: "PWR-105A",
+    name: "20L Single Mop Wringer Trolley",
+    group: "pl",
+    cat: "wringer-trolley",
+    parent: "wringer-trolley"
+  },
 
 
 ];

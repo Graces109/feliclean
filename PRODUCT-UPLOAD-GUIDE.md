@@ -249,6 +249,7 @@ git push origin master:main
 | PWR-103B | 32L Single Mop Wringer Trolley with Drain Hose | pl | wringer-trolley | wringer-trolley | `pwr-103b.html` |
 | PWR-104A | 36L Single Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-104a.html` |
 | PWR-104B | 36L Single Mop Wringer Trolley with Drain Hose | pl | wringer-trolley | wringer-trolley | `pwr-104b.html` |
+| PWR-105A | 20L Single Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-105a.html` |
 
 ---
 
