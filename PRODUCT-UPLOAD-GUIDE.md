@@ -237,6 +237,7 @@ git push origin master:main
 | AEQ-103 | 154rpm Pad Holder | eq | equipment-accessories | equipment-accessories | `aeq-103.html` |
 | AEQ-104 | 175rpm Floor Brush | eq | equipment-accessories | equipment-accessories | `aeq-104.html` |
 | AEQ-105 | 175rpm Carpet Brush | eq | equipment-accessories | equipment-accessories | `aeq-105.html` |
+| AEQ-106 | 175rpm Pad Holder | eq | equipment-accessories | equipment-accessories | `aeq-106.html` |
 
 ---
 

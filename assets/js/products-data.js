@@ -606,6 +606,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-106.html",
+    img: "assets/img/products/aeq-106/aeq-106b-175rpm-pad-holder-studded-grip-face-white-background.jpg",
+    alt: "175rpm pad holder AEQ-106 pad driver with studded grip face for 175 rpm floor machine and buffer pads, 17 inch standard with 18 inch AEQ-106A, white background",
+    model: "AEQ-106",
+    name: "175rpm Pad Holder",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
