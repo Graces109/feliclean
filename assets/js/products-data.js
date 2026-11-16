@@ -586,6 +586,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-104.html",
+    img: "assets/img/products/aeq-104/aeq-104b-175rpm-floor-brush-black-bristle-white-background.jpg",
+    alt: "175rpm floor brush AEQ-104 rotary scrub brush with dense black bristle for 175 rpm floor machine and buffer, 17 inch standard with 18 inch AEQ-104A, white background",
+    model: "AEQ-104",
+    name: "175rpm Floor Brush",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
