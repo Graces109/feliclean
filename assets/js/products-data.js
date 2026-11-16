@@ -757,6 +757,16 @@ window.FELI_PRODUCTS = [
     cat: "wringer-trolley",
     parent: "wringer-trolley"
   },
+  {
+    href: "pwr-107.html",
+    img: "assets/img/products/pwr-107/pwr-107-50l-double-mop-wringer-trolley-white-background.jpg",
+    alt: "50L double mop wringer trolley PWR-107 with red dirty bucket, blue clean bucket and yellow down-press wringer for hotel corridors, hospital wards and offices, white background",
+    model: "PWR-107",
+    name: "50L Double Mop Wringer Trolley",
+    group: "pl",
+    cat: "wringer-trolley",
+    parent: "wringer-trolley"
+  },
 
 
 ];

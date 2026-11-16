@@ -252,6 +252,7 @@ git push origin master:main
 | PWR-105A | 20L Single Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-105a.html` |
 | PWR-105B | 20L Single Mop Wringer Trolley with Plastic Castors | pl | wringer-trolley | wringer-trolley | `pwr-105b.html` |
 | PWR-106 | 36L Down-Press Double Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-106.html` |
+| PWR-107 | 50L Double Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-107.html` |
 
 ---
 
