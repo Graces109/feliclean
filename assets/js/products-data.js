@@ -626,6 +626,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-108.html",
+    img: "assets/img/products/aeq-108/aeq-108-white-floor-pad-17-20-inch-white-background.jpg",
+    alt: "white floor pad AEQ-108 white non-woven buffing pad for single disc floor machine and buffer polishing, 17 inch standard with 20 inch AEQ-108A, white background",
+    model: "AEQ-108",
+    name: "White Floor Pad",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
