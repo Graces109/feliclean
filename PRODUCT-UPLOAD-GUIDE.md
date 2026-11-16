@@ -241,6 +241,7 @@ git push origin master:main
 | AEQ-107 | Burnish Plate | eq | equipment-accessories | equipment-accessories | `aeq-107.html` |
 | AEQ-108 | White Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-108.html` |
 | AEQ-109 | Red Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-109.html` |
+| AEQ-110 | Black Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-110.html` |
 
 ---
 

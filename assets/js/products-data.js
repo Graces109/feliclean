@@ -646,6 +646,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "aeq-110.html",
+    img: "assets/img/products/aeq-110/aeq-110-black-floor-pad-17-20-inch-white-background.jpg",
+    alt: "black floor pad AEQ-110 black non-woven stripping pad for single disc floor machine stripping old finish before recoating, 17 inch standard with 20 inch AEQ-110A, white background",
+    model: "AEQ-110",
+    name: "Black Floor Pad",
+    group: "eq",
+    cat: "equipment-accessories",
+    parent: "equipment-accessories"
   }
 
 
