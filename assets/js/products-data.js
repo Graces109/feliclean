@@ -490,9 +490,9 @@ window.FELI_PRODUCTS = [
   {
     href: "mbr-106.html",
     img: "assets/img/products/mbr-106/mbr-106-8l-multi-functional-brush-machine-white-background.jpg",
-    alt: "MBR-106 8L multi functional brush machine with a white 8 litre solution tank, red T-bar handle, 13 inch brush deck and anti-collision strip, on white background",
+    alt: "13 inch multi-function brushing machine MBR-106 with 8L solution tank, red T-bar handle and 13 inch brush deck on white background",
     model: "MBR-106",
-    name: "8L Multi functional Brush Machine",
+    name: "13 Inch Multi-Function Brushing Machine 154rpm Speed",
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
