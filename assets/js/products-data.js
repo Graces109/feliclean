@@ -656,6 +656,16 @@ window.FELI_PRODUCTS = [
     group: "eq",
     cat: "equipment-accessories",
     parent: "equipment-accessories"
+  },
+  {
+    href: "pwr-101.html",
+    img: "assets/img/products/pwr-101/pwr-101-34l-double-mop-wringer-trolley-white-background.jpg",
+    alt: "34L double mop wringer trolley PWR-101 with clean and dirty water chambers, wringer basket and four swivel castors for hotel housekeeping and contract cleaning, white background",
+    model: "PWR-101",
+    name: "Double Mop Wringer Trolley",
+    group: "pl",
+    cat: "wringer-trolley",
+    parent: "wringer-trolley"
   }
 
 

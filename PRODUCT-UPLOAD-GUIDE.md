@@ -242,6 +242,7 @@ git push origin master:main
 | AEQ-108 | White Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-108.html` |
 | AEQ-109 | Red Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-109.html` |
 | AEQ-110 | Black Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-110.html` |
+| PWR-101 | 34L Double Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-101.html` |
 
 ---
 
