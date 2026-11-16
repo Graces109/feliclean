@@ -767,6 +767,16 @@ window.FELI_PRODUCTS = [
     cat: "wringer-trolley",
     parent: "wringer-trolley"
   },
+  {
+    href: "pwr-108.html",
+    img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
+    alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
+    model: "PWR-108",
+    name: "35L/15/4L Down-Press Double Mop Wringer Trolley",
+    group: "pl",
+    cat: "wringer-trolley",
+    parent: "wringer-trolley"
+  },
 
 
 ];
