@@ -770,7 +770,7 @@ window.FELI_PRODUCTS = [
   {
     href: "pst-101.html",
     img: "assets/img/products/pst-101/pst-101-six-colour-round-storage-bin-white-background.jpg",
-    alt: "Round storage bin PST-101 in yellow, green and blue with lid, rim ears and four castors, 23L and 40L wheeled plastic bin for hotels, restaurants and laundry rooms, white background",
+    alt: "Round storage bin PST-101 in yellow, green and blue with lid, rim ears and four castors, 23L wheeled plastic storage bin for hotels, restaurants and laundry rooms, white background",
     model: "PST-101",
     name: "Round Storage Bin",
     group: "pl",
