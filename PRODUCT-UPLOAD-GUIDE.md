@@ -244,6 +244,7 @@ git push origin master:main
 | AEQ-110 | Black Floor Pad | eq | equipment-accessories | equipment-accessories | `aeq-110.html` |
 | PWR-101 | 34L Double Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-101.html` |
 | PWR-102A | 24L Single Mop Wringer Trolley | pl | wringer-trolley | wringer-trolley | `pwr-102a.html` |
+| PWR-102B | 24L Single Mop Wringer Trolley with Drain Hose | pl | wringer-trolley | wringer-trolley | `pwr-102b.html` |
 
 ---
 
