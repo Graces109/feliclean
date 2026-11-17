@@ -4846,6 +4846,9 @@ section,
 .pdp-left { min-width: 0; }
 .pdp-left .pdp-spec-wrap { margin: 26px 0 6px; }
 .pdp-left .pdp-desc { margin-top: 16px; }
+/* full-width description block, same measure as the model-code section */
+.pdp-desc--wide { max-width: 1040px; margin: 44px 0 0; }
+.pdp-desc--wide .sd-section-title { margin-bottom: 16px; }
 /* PST-101 model code table */
 .pdp-models { margin: 44px 0 6px; }
 .pdp-models-intro { font-size: 14.5px; color: #4b5563; line-height: 1.75; margin: 0 0 16px; max-width: 1040px; }
