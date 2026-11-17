@@ -808,6 +808,16 @@ window.FELI_PRODUCTS = [
     parent: "storage-bin"
   },
   {
+    href: "pst-105.html",
+    img: "assets/img/products/pst-105/pst-105-120l-half-round-head-dustbin-with-ashtray-dark-grey-white-background.jpg",
+    alt: "PST-105 120L half round head dustbin with built-in ashtray in dark grey, push flap entry with PUSH arrow and side rim ears, plastic litter bin for hotel lobbies, airports, hot spring pool decks and factories, white background",
+    model: "PST-105",
+    name: "120L Half Round Head Dustbin with Ashtray",
+    group: "pl",
+    cat: "storage-bin",
+    parent: "storage-bin"
+  },
+  {
     href: "pwr-108.html",
     img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
     alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
