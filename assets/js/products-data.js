@@ -788,6 +788,16 @@ window.FELI_PRODUCTS = [
     parent: "storage-bin"
   },
   {
+    href: "pst-103.html",
+    img: "assets/img/products/pst-103/pst-103-dark-grey-round-storage-bin-40l-80l-white-background.jpg",
+    alt: "PST-103 dark grey round storage bin in 40L and 80L without base or castors, lidded body with rim ears standing flat on the floor, plastic storage bin for hotel housekeeping, restaurant kitchens and laundry rooms, white background",
+    model: "PST-103",
+    name: "Round Storage Bin without Base",
+    group: "pl",
+    cat: "storage-bin",
+    parent: "storage-bin"
+  },
+  {
     href: "pwr-108.html",
     img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
     alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
