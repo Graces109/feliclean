@@ -769,8 +769,8 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "pst-101.html",
-    img: "assets/img/products/pst-101/pst-101-six-colour-round-storage-bin-white-background.jpg",
-    alt: "Round storage bin PST-101 in yellow, green and blue with lid and rim ears, plastic storage bin without base or castors in capacities from 23L to 208L for hotels, restaurants and laundry rooms, white background",
+    img: "assets/img/products/pst-101/pst-101-six-colour-round-storage-bin-no-castors-white-background.jpg",
+    alt: "Round storage bin PST-101 in yellow, green and blue with lid and rim ears standing on the floor with no castors and no base platform, plastic storage bin in capacities from 23L to 208L for hotels, restaurants and laundry rooms, white background",
     model: "PST-101",
     name: "Round Storage Bin",
     group: "pl",
