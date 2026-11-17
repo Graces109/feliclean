@@ -818,6 +818,16 @@ window.FELI_PRODUCTS = [
     parent: "storage-bin"
   },
   {
+    href: "pst-106.html",
+    img: "assets/img/products/pst-106/pst-106-120l-funnel-dustbin-dark-grey-white-background.jpg",
+    alt: "PST-106 120L funnel dustbin in dark grey with lift-off lid and round funnel opening, two side rim ears, plastic waste bin for hotel back-of-house, airports, hot spring pool decks and factories, white background",
+    model: "PST-106",
+    name: "120L Funnel Dustbin",
+    group: "pl",
+    cat: "storage-bin",
+    parent: "storage-bin"
+  },
+  {
     href: "pwr-108.html",
     img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
     alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
