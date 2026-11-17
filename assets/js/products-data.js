@@ -828,6 +828,16 @@ window.FELI_PRODUCTS = [
     parent: "storage-bin"
   },
   {
+    href: "ppg-101.html",
+    img: "assets/img/products/ppg-101/ppg-101-classification-pedal-dustbin-six-colour-white-background.jpg",
+    alt: "PPG-101 classification pedal dustbin in six colours, yellow, yellow-grey, grey, green, blue and red, step pedal and hinged lid, plastic waste bin for hospitals, hotel back-of-house, airports, hot spring pool decks and factories, white background",
+    model: "PPG-101",
+    name: "Classification Pedal Dustbin 30L/45L/68L/87L",
+    group: "pl",
+    cat: "pedal-garbage-bin",
+    parent: "dustbin"
+  },
+  {
     href: "pwr-108.html",
     img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
     alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
