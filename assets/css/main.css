@@ -5077,3 +5077,6 @@ section,
   .pdp-band, .pdp-desc--wide { margin-top: 48px; }
   .pdp-desc--wide p { font-size: 16px; }
 }
+
+/* PST-101 model table: right-aligned measurement column */
+.pdp-model-table th.meas, .pdp-model-table td.meas { text-align: right; }
