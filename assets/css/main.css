@@ -4817,7 +4817,7 @@ section,
 }
 
 /* ===== Detail page refinements: clear fixed header, plain selling points, left-aligned spec/desc, CTA + WhatsApp ===== */
-.product-detail { padding-top: 120px; }
+.product-detail { padding-top: 168px; }
 
 .pdp-crumb { font-size: 14px; color: #6b7280; margin: 0 0 16px; }
 .pdp-crumb a { color: #16a34a; text-decoration: none; }
