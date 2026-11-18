@@ -848,6 +848,56 @@ window.FELI_PRODUCTS = [
     parent: "dustbin"
   },
   {
+    href: "ptc-101.html",
+    img: "assets/img/products/ptc-101/ptc-101-turning-cover-dustbin-with-castors-white-background.jpg",
+    alt: "PTC-101 turning cover dustbin 60L and 120L with base platform and castors in grey, green, blue and red, swing lid plastic litter bin for hotels, airports and factories, white background",
+    model: "PTC-101",
+    name: "60L/120L Turning Cover Dustbin with Castors",
+    group: "pl",
+    cat: "turning-cover-dustbin",
+    parent: "dustbin"
+  },
+  {
+    href: "ptc-102.html",
+    img: "assets/img/products/ptc-102/ptc-102-60l-turning-cover-dustbin-four-colours-white-background.jpg",
+    alt: "PTC-102 turning cover dustbin 25L 42L 60L in grey, green, blue and red, self-closing swing lid plastic litter bin for hotels, schools and offices, white background",
+    model: "PTC-102",
+    name: "25L/42L/60L Turning Cover Dustbin",
+    group: "pl",
+    cat: "turning-cover-dustbin",
+    parent: "dustbin"
+  },
+  {
+    href: "ptc-103.html",
+    img: "assets/img/products/ptc-103/ptc-103-100l-turning-cover-dustbin-four-colours-white-background.jpg",
+    alt: "PTC-103 turning cover dustbin 25L 40L 60L 100L in grey, green, blue and red, wide top self-closing swing lid plastic litter bin for hotel lobbies, airports and factories, white background",
+    model: "PTC-103",
+    name: "25L/40L/60L/100L Turning Cover Dustbin",
+    group: "pl",
+    cat: "turning-cover-dustbin",
+    parent: "dustbin"
+  },
+  {
+    href: "ptc-104.html",
+    img: "assets/img/products/ptc-104/ptc-104-hand-free-dustbin-80l-60l-grey-white-background.jpg",
+    alt: "PTC-104 hand free dustbin 60L and 80L in grey with push top cover and no pedal, plastic waste bin for hotel rooms, clinics and offices, white background",
+    model: "PTC-104",
+    name: "60L/80L Hand Free Dustbin",
+    group: "pl",
+    cat: "turning-cover-dustbin",
+    parent: "dustbin"
+  },
+  {
+    href: "ptc-105.html",
+    img: "assets/img/products/ptc-105/ptc-105-hand-free-dustbin-12l-25l-35l-grey-white-background.jpg",
+    alt: "PTC-105 hand free dustbin 12L 25L 35L in grey with push top cover and no pedal, compact plastic waste bin for bathrooms, guest rooms and offices, white background",
+    model: "PTC-105",
+    name: "12L/25L/35L Hand Free Dustbin",
+    group: "pl",
+    cat: "turning-cover-dustbin",
+    parent: "dustbin"
+  },
+  {
     href: "pwr-108.html",
     img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
     alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
