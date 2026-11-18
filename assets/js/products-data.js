@@ -151,7 +151,7 @@ window.FELI_PRODUCTS = [
     img: "assets/img/products/msw-107/msw-107-driving-type-sweeping-machine-white-background.jpg",
     alt: "MSW-107 driving type sweeping machine in blue and black with a blue canopy, steering wheel, operator seat, rear-view mirror, red chassis skirt, four black rotary edge brushes and solid tyres, on a clean white background",
     model: "MSW-107",
-    name: "Driving Type Sweeping Machine",
+    name: "1950mm Sweeping Paths Driving Type Sweeping Machine",
     group: "eq",
     cat: "sweeping-machine",
     parent: "sweeping-machine"
