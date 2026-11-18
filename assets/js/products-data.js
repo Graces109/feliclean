@@ -820,8 +820,8 @@ window.FELI_PRODUCTS = [
   {
     href: "pst-106.html",
     img: "assets/img/products/pst-106/pst-106-120l-funnel-dustbin-dark-grey-white-background.jpg",
-    alt: "PST-106 120L funnel dustbin in dark grey with lift-off lid and round funnel opening, two side rim ears, plastic waste bin for hotel back-of-house, airports, hot spring pool decks and factories, white background",
-    model: "PST-106",
+    alt: "PST-106-120 120L funnel dustbin in dark grey with lift-off lid and round funnel opening, two side rim ears, plastic waste bin for hotel back-of-house, airports, hot spring pool decks and factories, white background",
+    model: "PST-106-120",
     name: "120L Funnel Dustbin",
     group: "pl",
     cat: "storage-bin",
