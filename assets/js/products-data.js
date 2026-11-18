@@ -948,6 +948,106 @@ window.FELI_PRODUCTS = [
     parent: "dustbin"
   },
   {
+    href: "pou-101.html",
+    img: "assets/img/products/pou-101/pou-101-blue-poly-tilt-truck-350l-450l-white-background.jpg",
+    alt: "POU-101 350L and 450L blue polyethylene tilt truck on a steel frame with rear wheels and front castors, waste collection truck for factories, warehouses and recycling yards, white background",
+    model: "POU-101",
+    name: "350L/450L Tilt Truck",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-102.html",
+    img: "assets/img/products/pou-102/pou-102-660l-1100l-four-wheel-waste-container-white-background.jpg",
+    alt: "POU-102 660L and 1100L four wheel waste container in green, blue, red and grey, large outdoor plastic garbage bin for housing estates and municipal collection, white background",
+    model: "POU-102",
+    name: "660L/1100L Four Wheel Waste Container",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-103.html",
+    img: "assets/img/products/pou-103/pou-103-100l-120l-240l-wheelie-bin-grey-green-blue-red-white-background.jpg",
+    alt: "POU-103 100L, 120L and 240L two wheel wheelie bin in grey, green, blue and red, kerbside plastic outdoor garbage bin for streets, housing estates and schools, white background",
+    model: "POU-103",
+    name: "100L/120L/240L Wheelie Bin",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-104.html",
+    img: "assets/img/products/pou-104/pou-104-wheelie-bin-pulling-handle-grey-green-blue-red-white-background.jpg",
+    alt: "POU-104 100L, 120L and 240L two wheel wheelie bin with a steel pulling handle in grey, green, blue and red, plastic outdoor garbage bin for long kerbside routes, white background",
+    model: "POU-104",
+    name: "Wheelie Bin with Pulling Handle",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-105.html",
+    img: "assets/img/products/pou-105/pou-105-240l-tapered-outdoor-garbage-bin-grey-green-blue-red-white-background.jpg",
+    alt: "POU-105 240L tapered outdoor garbage bin with overhanging lid in grey, green, blue and red, plastic public waste bin for streets, parks and markets, white background",
+    model: "POU-105",
+    name: "240L Tapered Outdoor Garbage Bin",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-106.html",
+    img: "assets/img/products/pou-106/pou-106-100l-120l-240l-ribbed-outdoor-garbage-bin-grey-green-blue-red-white-background.jpg",
+    alt: "POU-106 100L, 120L and 240L ribbed outdoor garbage bin in grey, green, blue and red, heavy duty plastic street waste bin for estates and commercial frontage, white background",
+    model: "POU-106",
+    name: "100L/120L/240L Outdoor Garbage Bin",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-107.html",
+    img: "assets/img/products/pou-107/pou-107-120l-240l-food-waste-bin-pedal-wheels-grey-green-blue-red-white-background.jpg",
+    alt: "POU-107 120L and 240L food waste bin with a foot pedal and wheels in grey, green, blue and red, plastic kitchen waste container for canteens, hotels and estates, white background",
+    model: "POU-107",
+    name: "120L/240L Food Waste Bin with Pedal",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-108.html",
+    img: "assets/img/products/pou-108/pou-108-60l-outdoor-garbage-bin-castors-grey-green-blue-red-white-background.jpg",
+    alt: "POU-108 60L outdoor garbage bin on four castors in grey, green, blue and red, wheeled lidded plastic waste bin for campuses, hotels and event grounds, white background",
+    model: "POU-108",
+    name: "60L Outdoor Garbage Bin on Castors",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-109.html",
+    img: "assets/img/products/pou-109/pou-109-60l-pedal-waste-bin-legs-grey-green-blue-white-background.jpg",
+    alt: "POU-109 60L pedal waste bin on stainless steel legs in grey, green and blue, hygienic foot pedal plastic bin for clinics, hotels and washrooms, white background",
+    model: "POU-109",
+    name: "60L Pedal Waste Bin on Legs",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
+    href: "pou-110.html",
+    img: "assets/img/products/pou-110/pou-110-60l-120l-240l-pedal-side-wheel-garbage-bin-grey-white-background.jpg",
+    alt: "POU-110 60L, 120L and 240L pedal side wheel garbage bin in grey, foot pedal plastic outdoor waste container for housing estates, canteens and markets, white background",
+    model: "POU-110",
+    name: "60L/120L/240L Pedal Side Wheel Garbage Bin",
+    group: "pl",
+    cat: "outdoor-garbage-cart",
+    parent: "dustbin"
+  },
+  {
     href: "pwr-108.html",
     img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
     alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
