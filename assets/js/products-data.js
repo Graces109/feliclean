@@ -898,6 +898,56 @@ window.FELI_PRODUCTS = [
     parent: "dustbin"
   },
   {
+    href: "pcl-101.html",
+    img: "assets/img/products/pcl-101/pcl-101-joint-dustbin-four-stream-87l-white-background.jpg",
+    alt: "PCL-101 87L joint dustbin with green, grey, blue and red lids, four stream colour coded recycling station for airports, malls and campuses, white background",
+    model: "PCL-101",
+    name: "87L Four Stream Joint Dustbin",
+    group: "pl",
+    cat: "classification-dustbin",
+    parent: "dustbin"
+  },
+  {
+    href: "pcl-102.html",
+    img: "assets/img/products/pcl-102/pcl-102-180l-joint-dustbin-three-stream-white-background.jpg",
+    alt: "PCL-102 180L joint dustbin with blue, red and yellow lids, three stream colour coded recycling station for depots, plants and public spaces, white background",
+    model: "PCL-102",
+    name: "180L Joint Dustbin",
+    group: "pl",
+    cat: "classification-dustbin",
+    parent: "dustbin"
+  },
+  {
+    href: "pba-101.html",
+    img: "assets/img/products/pba-101/pba-101-21l-slim-bathroom-dustbin-blue-grey-white-background.jpg",
+    alt: "PBA-101 21L slim lidded bathroom dustbin in blue and grey, tall narrow plastic waste bin for hotel bathrooms, clinics and washrooms, white background",
+    model: "PBA-101",
+    name: "21L Slim Bathroom Dustbin",
+    group: "pl",
+    cat: "bathroom-dustbin",
+    parent: "dustbin"
+  },
+  {
+    href: "pba-102.html",
+    img: "assets/img/products/pba-102/pba-102-open-top-bathroom-dustbin-black-ivory-slate-beige-white-background.jpg",
+    alt: "PBA-102 open top bathroom dustbin 8L and 8.5L in black, ivory, slate and beige, slim plastic waste bin for hotel bathrooms, guest rooms and offices, white background",
+    model: "PBA-102",
+    name: "8L/8.5L Open Top Bathroom Dustbin",
+    group: "pl",
+    cat: "bathroom-dustbin",
+    parent: "dustbin"
+  },
+  {
+    href: "pba-105.html",
+    img: "assets/img/products/pba-105/pba-105-square-trash-can-8l-grey-yellow-white-background.jpg",
+    alt: "PBA-105 8L square trash can in grey and yellow, open top slim plastic waste bin for hotel rooms, offices and classrooms, white background",
+    model: "PBA-105",
+    name: "8L Square Trash Can",
+    group: "pl",
+    cat: "bathroom-dustbin",
+    parent: "dustbin"
+  },
+  {
     href: "pwr-108.html",
     img: "assets/img/products/pwr-108/pwr-108-35l-down-press-double-mop-wringer-trolley-white-background.jpg",
     alt: "35L down-press double mop wringer trolley PWR-108 with yellow wash bucket, red wringer insert, blue second bucket and black base platform for hotels, hospitals and schools, white background",
