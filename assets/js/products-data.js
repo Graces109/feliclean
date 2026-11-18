@@ -21,7 +21,7 @@ window.FELI_PRODUCTS = [
     img: "assets/img/products/msd-101/main.jpg",
     alt: "MSD-101 ride-on scrubber dryer",
     model: "MSD-101",
-    name: "Ride-On Scrubber Dryer Machine",
+    name: "660mm Ride-On Scrubber Dryer Machine",
     group: "eq",
     cat: "scrubber-dryer",
     parent: "scrubber-dryer"
