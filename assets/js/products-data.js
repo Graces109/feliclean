@@ -121,7 +121,7 @@ window.FELI_PRODUCTS = [
     img: "assets/img/products/msw-104/msw-104-high-pressure-car-wash-machine-white-background.jpg",
     alt: "MSW-104 high pressure car wash machine, a four-wheel trolley pressure washer in red and black with a brass pump head and a 10 m hose, on a clean white background",
     model: "MSW-104",
-    name: "High Pressure Car Wash Machine",
+    name: "10 Meters High Pressure Car Wash Machine",
     group: "eq",
     cat: "sweeping-machine",
     parent: "sweeping-machine"
