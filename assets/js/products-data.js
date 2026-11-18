@@ -192,7 +192,7 @@ window.FELI_PRODUCTS = [
     img: "assets/img/products/mca-101/mca-101-carpet-washer-stainless-steel-tank.jpg",
     alt: "MCA-101 carpet washer with stainless steel tank",
     model: "MCA-101",
-    name: "Carpet Washer",
+    name: "30L/80L Carpet Washer",
     group: "eq",
     cat: "carpet-machine",
     parent: "carpet-machine"
