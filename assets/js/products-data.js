@@ -239,8 +239,8 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "pca-101.html",
-    img: "assets/img/products/pca-101/pca101-01.jpg",
-    alt: "PCA-101 small shape A caution board, PLEASE KEEP CLEAR",
+    img: "assets/img/products/pca-101/pca101-07.jpg",
+    alt: "PCA-101 small shape A caution board, CAUTION WET FLOOR",
     model: "PCA-101",
     name: "Small Shape of A Caution Board",
     group: "pl",
