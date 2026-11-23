@@ -249,8 +249,8 @@ window.FELI_PRODUCTS = [
   },
   {
     href: "pca-102.html",
-    img: "assets/img/products/pca-102/pca102-01.jpg",
-    alt: "PCA-102 large shape A caution board, NO PARKING",
+    img: "assets/img/products/pca-102/pca102-04.jpg",
+    alt: "PCA-102 large shape A caution board, CAUTION WET FLOOR",
     model: "PCA-102",
     name: "Large Shape of A Caution Board",
     group: "pl",
