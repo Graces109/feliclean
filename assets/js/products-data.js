@@ -98,16 +98,6 @@ window.FELI_PRODUCTS = [
     parent: "brush-machine"
   },
   {
-    href: "mbr-108.html",
-    img: "assets/img/products/mbr-108/mbr-108-high-speed-polisher-1800w-1500rpm-20-inch-white-background.jpg",
-    alt: "20 inch multi-function brushing machine MBR-108 high speed floor polisher with teal base housing and 20 inch base plate on white background",
-    model: "MBR-108",
-    name: "20 Inch Multi-Function Brushing Machine 1500rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
     href: "mbr-106.html",
     img: "assets/img/products/mbr-106/mbr-106-17-inch-floor-renewing-machine-white-background.jpg",
     alt: "17 inch floor renewing machine MBR-106 with green body, white solution tank and 17 inch disc for hotels, malls and warehouses",
@@ -123,6 +113,16 @@ window.FELI_PRODUCTS = [
     alt: "18 inch floor renewing machine MBR-107 with yellow body, white solution tank and 18 inch disc for hotels, malls and warehouses",
     model: "MBR-107",
     name: "18 Inch Disk Weighing Renewing Machine 176rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-108.html",
+    img: "assets/img/products/mbr-108/mbr-108-high-speed-polisher-1800w-1500rpm-20-inch-white-background.jpg",
+    alt: "20 inch multi-function brushing machine MBR-108 high speed floor polisher with teal base housing and 20 inch base plate on white background",
+    model: "MBR-108",
+    name: "20 Inch Multi-Function Brushing Machine 1500rpm Speed",
     group: "eq",
     cat: "brush-machine",
     parent: "brush-machine"
