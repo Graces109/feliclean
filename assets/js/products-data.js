@@ -16,76 +16,54 @@
  *          third level under this second-level item.
  * ============================================================ */
 window.FELI_PRODUCTS = [
+
   {
     href: "msd-101.html",
-    img: "assets/img/products/msd-101/main.jpg",
-    alt: "MSD-101 ride-on scrubber dryer",
+    img: "assets/img/products/msd-101/msd-101-600mm-ride-on-scrubber-dryer-white-background.jpg",
+    alt: "MSD-101 600mm manual ride-on scrubber dryer with white body, red top cover and one 22 inch disc brush",
     model: "MSD-101",
-    name: "660mm Ride-On Scrubber Dryer Machine",
-    group: "eq",
-    cat: "scrubber-dryer",
-    parent: "scrubber-dryer"
-  },
-  {
-    href: "msd-102.html",
-    img: "assets/img/products/msd-102/msd-102-860mm-ride-on-scrubber-dryer-white-background.jpg",
-    alt: "860mm automatic ride-on scrubber dryer MSD-102 for warehouse and factory floor cleaning, white and red body with twin disc brushes",
-    model: "MSD-102",
-    name: "860mm Automatic Ride-On Scrubber Dryer",
-    group: "eq",
-    cat: "scrubber-dryer",
-    parent: "scrubber-dryer"
-  },
-  {
-    href: "msd-103.html",
-    img: "assets/img/products/msd-103/msd-103-1060mm-ride-on-scrubber-dryer-white-background.jpg",
-    alt: "MSD-103 1060mm automatic ride-on scrubber dryer with grey body, red top cover and amber beacon",
-    model: "MSD-103",
-    name: "1060mm Automatic Ride-On Scrubber Dryer",
-    group: "eq",
-    cat: "scrubber-dryer",
-    parent: "scrubber-dryer"
-  },
-  {
-    href: "msd-104.html",
-    img: "assets/img/products/msd-104/msd-104-600mm-ride-on-scrubber-dryer-white-background.jpg",
-    alt: "MSD-104 600mm manual ride-on scrubber dryer with white body, red top cover and one 22 inch disc brush",
-    model: "MSD-104",
     name: "600mm Manual Ride-On Scrubber Dryer",
     group: "eq",
     cat: "scrubber-dryer",
     parent: "scrubber-dryer"
   },
   {
-    href: "msd-105.html",
-    img: "assets/img/products/msd-105/msd-105-660mm-auto-manual-ride-on-scrubber-dryer-white-background.jpg",
-    alt: "MSD-105 660mm auto/manual ride-on scrubber dryer with white body, red top cover and twin 13 inch disc brushes",
-    model: "MSD-105",
+    href: "msd-102.html",
+    img: "assets/img/products/msd-102/msd-102-660mm-auto-manual-ride-on-scrubber-dryer-white-background.jpg",
+    alt: "MSD-102 660mm auto/manual ride-on scrubber dryer with white body, red top cover and twin 13 inch disc brushes",
+    model: "MSD-102",
     name: "660mm Twin-Disc Auto/Manual Ride-On Scrubber",
     group: "eq",
     cat: "scrubber-dryer",
     parent: "scrubber-dryer"
   },
   {
-    href: "msd-106.html",
-    img: "assets/img/products/msd-106/msd-106-860mm-ride-on-scrubber-dryer-white-background.jpg",
-    alt: "MSD-106 860mm ride-on scrubber dryer with white and red body, black seat and twin 16 inch disc brushes",
-    model: "MSD-106",
+    href: "msd-103.html",
+    img: "assets/img/products/msd-103/msd-103-860mm-ride-on-scrubber-dryer-white-background.jpg",
+    alt: "MSD-103 860mm ride-on scrubber dryer with white and red body, black seat and twin 16 inch disc brushes",
+    model: "MSD-103",
     name: "860mm Twin-Disc Ride-On Scrubber Dryer",
     group: "eq",
     cat: "scrubber-dryer",
     parent: "scrubber-dryer"
   },
   {
-    href: "msd-107.html",
-    img: "assets/img/products/msd-107/msd-107-530mm-manual-scrubber-dryer-white-background.jpg",
-    alt: "MSD-107 530mm manual walk-behind scrubber dryer with grey and red body, one 20 inch disc brush and a red squeegee",
-    model: "MSD-107",
+    href: "msd-104.html",
+    img: "assets/img/products/msd-104/msd-104-530mm-manual-scrubber-dryer-white-background.jpg",
+    alt: "MSD-104 530mm manual walk-behind scrubber dryer with grey and red body, one 20 inch disc brush and a red squeegee",
+    model: "MSD-104",
     name: "530mm Manual Walk-Behind Scrubber Dryer",
     group: "eq",
     cat: "scrubber-dryer",
     parent: "scrubber-dryer"
   },
+
+
+
+
+
+
+
   {
     href: "msw-101.html",
     img: "assets/img/products/msw-101/msw-101-1050mm-manual-sweeper-white-background.jpg",
