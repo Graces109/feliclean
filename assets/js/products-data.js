@@ -117,6 +117,16 @@ window.FELI_PRODUCTS = [
     cat: "brush-machine",
     parent: "brush-machine"
   },
+  {
+    href: "mbr-107.html",
+    img: "assets/img/products/mbr-107/mbr-107-18-inch-floor-renewing-machine-white-background.jpg",
+    alt: "18 inch floor renewing machine MBR-107 with yellow body, white solution tank and 18 inch disc for hotels, malls and warehouses",
+    model: "MBR-107",
+    name: "18 Inch Disk Weighing Renewing Machine 176rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
 
   {
     href: "msd-101.html",
