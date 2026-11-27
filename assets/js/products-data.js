@@ -110,7 +110,7 @@ window.FELI_PRODUCTS = [
   {
     href: "mbr-106.html",
     img: "assets/img/products/mbr-106/mbr-106-17-inch-floor-renewing-machine-white-background.jpg",
-    alt: "17 inch floor renewing machine MBR-106 with red body, white solution tank and 17 inch disc for hotels, malls and warehouses",
+    alt: "17 inch floor renewing machine MBR-106 with green body, white solution tank and 17 inch disc for hotels, malls and warehouses",
     model: "MBR-106",
     name: "17 Inch Disk Weighing Renewing Machine 154rpm Speed",
     group: "eq",
