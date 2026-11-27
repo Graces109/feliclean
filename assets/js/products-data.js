@@ -18,6 +18,97 @@
 window.FELI_PRODUCTS = [
 
   {
+    href: "mbr-101a.html",
+    img: "assets/img/products/mbr-101a/mbr-101a-1100w-154rpm-17-inch-multi-functional-brush-machine-white-background.jpg",
+    alt: "17 inch multi-function brushing machine MBR-101A with red motor drum, white solution tank and 17 inch brush on white background",
+    model: "MBR-101A",
+    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-101b.html",
+    img: "assets/img/products/mbr-101b/mbr-101b-15l-multi-functional-brush-machine-white-background.jpg",
+    alt: "17 inch multi-function brushing machine MBR-101B with 15L solution tank and red motor head on white background",
+    model: "MBR-101B",
+    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-102a.html",
+    img: "assets/img/products/mbr-102a/mbr-102a-15l-multi-functional-brush-machine-white-background.jpg",
+    alt: "17 inch multi-function brushing machine MBR-102A with 15L solution tank, yellow motor head and plastic base plate on white background",
+    model: "MBR-102A",
+    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-102b.html",
+    img: "assets/img/products/mbr-102b/mbr-102b-12l-multi-functional-brush-machine-white-background.jpg",
+    alt: "17 inch multi-function brushing machine MBR-102B with 12L solution tank, yellow motor head and plastic base plate on white background",
+    model: "MBR-102B",
+    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-103a.html",
+    img: "assets/img/products/mbr-103a/mbr-103a-8l-multi-functional-brush-machine-white-background.jpg",
+    alt: "17 inch multi-function brushing machine MBR-103A with 8L solution tank and aluminium base plate on white background",
+    model: "MBR-103A",
+    name: "17 Inch Multi-Function Brushing Machine 175rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-103b.html",
+    img: "assets/img/products/mbr-103b/mbr-103b-15l-multi-functional-brush-machine-white-background.jpg",
+    alt: "17 inch multi-function brushing machine MBR-103B with 15L solution tank and aluminium base plate on white background",
+    model: "MBR-103B",
+    name: "17 Inch Multi-Function Brushing Machine 175rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-104.html",
+    img: "assets/img/products/mbr-104/mbr-104-multi-functional-brush-machine-white-background.jpg",
+    alt: "18 inch multi-function brushing machine MBR-104 with white solution tank and 18 inch brush deck on white background",
+    model: "MBR-104",
+    name: "18 Inch Multi-Function Brushing Machine 175rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-105.html",
+    img: "assets/img/products/mbr-105/mbr-105-8l-multi-functional-brush-machine-white-background.jpg",
+    alt: "13 inch multi-function brushing machine MBR-105 with 8L solution tank, red T-bar handle and 13 inch brush deck on white background",
+    model: "MBR-105",
+    name: "13 Inch Multi-Function Brushing Machine 154rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+  {
+    href: "mbr-108.html",
+    img: "assets/img/products/mbr-108/mbr-108-high-speed-polisher-1800w-1500rpm-20-inch-white-background.jpg",
+    alt: "20 inch multi-function brushing machine MBR-108 high speed floor polisher with teal base housing and 20 inch base plate on white background",
+    model: "MBR-108",
+    name: "20 Inch Multi-Function Brushing Machine 1500rpm Speed",
+    group: "eq",
+    cat: "brush-machine",
+    parent: "brush-machine"
+  },
+
+  {
     href: "msd-101.html",
     img: "assets/img/products/msd-101/msd-101-600mm-ride-on-scrubber-dryer-white-background.jpg",
     alt: "MSD-101 600mm manual ride-on scrubber dryer with white body, red top cover and one 22 inch disc brush",
@@ -352,139 +443,22 @@ window.FELI_PRODUCTS = [
     cat: "vacuum-cleaner",
     parent: "vacuum-cleaner"
   },
-  {
-    href: "mbr-101a.html",
-    img: "assets/img/products/mbr-101a/mbr-101a-1100w-154rpm-17-inch-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-101A with red motor drum, white solution tank and 17 inch brush on white background",
-    model: "MBR-101A",
-    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-101b.html",
-    img: "assets/img/products/mbr-101b/mbr-101b-multi-functional-brush-machine-main.jpg",
-    alt: "17 inch multi-function brushing machine MBR-101B with 8L solution tank and red motor drum on white background",
-    model: "MBR-101B",
-    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
 
-  {
-    href: "mbr-101c.html",
-    img: "assets/img/products/mbr-101c/mbr-101c-15l-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-101C with 15L solution tank and red motor head on white background",
-    model: "MBR-101C",
-    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
 
-  {
-    href: "mbr-102a.html",
-    img: "assets/img/products/mbr-102a/mbr-102a-15l-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-102A with 15L solution tank, yellow motor head and plastic base plate on white background",
-    model: "MBR-102A",
-    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
 
-  {
-    href: "mbr-102b.html",
-    img: "assets/img/products/mbr-102b/mbr-102b-12l-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-102B with 12L solution tank, yellow motor head and plastic base plate on white background",
-    model: "MBR-102B",
-    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-102c.html",
-    img: "assets/img/products/mbr-102c/mbr-102c-15l-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-102C with 15L solution tank, yellow motor head and plastic base plate on white background",
-    model: "MBR-102C",
-    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-103.html",
-    img: "assets/img/products/mbr-103/mbr-103-1100w-154rpm-17-inch-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-103 with yellow drum body, grey die-cast base and white solution tank on white background",
-    model: "MBR-103",
-    name: "17 Inch Multi-Function Brushing Machine 154rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-104a.html",
-    img: "assets/img/products/mbr-104a/mbr-104a-8l-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-104A with 8L solution tank and aluminium base plate on white background",
-    model: "MBR-104A",
-    name: "17 Inch Multi-Function Brushing Machine 175rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-104b.html",
-    img: "assets/img/products/mbr-104b/mbr-104b-8l-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-104B with 8L solution tank and aluminium base plate on white background",
-    model: "MBR-104B",
-    name: "17 Inch Multi-Function Brushing Machine 175rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-104c.html",
-    img: "assets/img/products/mbr-104c/mbr-104c-15l-multi-functional-brush-machine-white-background.jpg",
-    alt: "17 inch multi-function brushing machine MBR-104C with 15L solution tank and aluminium base plate on white background",
-    model: "MBR-104C",
-    name: "17 Inch Multi-Function Brushing Machine 175rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-105.html",
-    img: "assets/img/products/mbr-105/mbr-105-multi-functional-brush-machine-white-background.jpg",
-    alt: "18 inch multi-function brushing machine MBR-105 with white solution tank and 18 inch brush deck on white background",
-    model: "MBR-105",
-    name: "18 Inch Multi-Function Brushing Machine 175rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-106.html",
-    img: "assets/img/products/mbr-106/mbr-106-8l-multi-functional-brush-machine-white-background.jpg",
-    alt: "13 inch multi-function brushing machine MBR-106 with 8L solution tank, red T-bar handle and 13 inch brush deck on white background",
-    model: "MBR-106",
-    name: "13 Inch Multi-Function Brushing Machine 154rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
-  {
-    href: "mbr-107.html",
-    img: "assets/img/products/mbr-107/mbr-107-high-speed-polisher-1800w-1500rpm-20-inch-white-background.jpg",
-    alt: "20 inch multi-function brushing machine MBR-107 high speed floor polisher with teal base housing and 20 inch base plate on white background",
-    model: "MBR-107",
-    name: "20 Inch Multi-Function Brushing Machine 1500rpm Speed",
-    group: "eq",
-    cat: "brush-machine",
-    parent: "brush-machine"
-  },
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     href: "mbl-101.html",
     img: "assets/img/products/mbl-101/mbl-101-135w-3-speed-floor-blower-white-background.jpg",
